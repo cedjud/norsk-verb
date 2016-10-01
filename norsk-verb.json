@@ -1,0 +1,2648 @@
+[
+  {
+    "infinitiv": "å adlyde",
+    "presens": "adlyder",
+    "preteritum": "adlød",
+    "perfektum": "adlydt",
+    "english": "Obey"
+  },
+  {
+    "infinitiv": "å anbefale",
+    "presens": "anbefaler",
+    "preteritum": "anbefalte",
+    "perfektum": "anbefalt",
+    "english": "Recommend"
+  },
+  {
+    "infinitiv": "å ansette",
+    "presens": "ansetter",
+    "preteritum": "ansatte",
+    "perfektum": "ansatt",
+    "english": "Employ"
+  },
+  {
+    "infinitiv": "å arbeide",
+    "presens": "arbeider",
+    "preteritum": "arbeidet",
+    "perfektum": "arbeidet",
+    "english": "Work"
+  },
+  {
+    "infinitiv": "å avslå",
+    "presens": "avslår",
+    "preteritum": "avslo",
+    "perfektum": "avslått",
+    "english": "Repulse"
+  },
+  {
+    "infinitiv": "å avstå",
+    "presens": "avstår",
+    "preteritum": "avstod",
+    "perfektum": "avstatt",
+    "english": "Cede"
+  },
+  {
+    "infinitiv": "å bade",
+    "presens": "bader",
+    "preteritum": "badet",
+    "perfektum": "badet",
+    "english": "Bath"
+  },
+  {
+    "infinitiv": "å banke",
+    "presens": "banker",
+    "preteritum": "banket",
+    "perfektum": "banket",
+    "english": "Beat, Hit"
+  },
+  {
+    "infinitiv": "å barbere",
+    "presens": "barberer",
+    "preteritum": "barberte",
+    "perfektum": "barbert",
+    "english": "Shave"
+  },
+  {
+    "infinitiv": "å be",
+    "presens": "ber",
+    "preteritum": "ba(d)",
+    "perfektum": "bedt",
+    "english": "Ask"
+  },
+  {
+    "infinitiv": "å bearbeide",
+    "presens": "bearbeider",
+    "preteritum": "bearbeidet",
+    "perfektum": "bearbeidet",
+    "english": "Adapt"
+  },
+  {
+    "infinitiv": "å bedra",
+    "presens": "bedrar",
+    "preteritum": "bedro",
+    "perfektum": "bedratt",
+    "english": "Cheat"
+  },
+  {
+    "infinitiv": "å bedøve",
+    "presens": "bedøver",
+    "preteritum": "bedøvet",
+    "perfektum": "bedøvet",
+    "english": "Drug"
+  },
+  {
+    "infinitiv": "å bedøve",
+    "presens": "bedøver",
+    "preteritum": "",
+    "perfektum": "bedøvd",
+    "english": "Anaesthetise"
+  },
+  {
+    "infinitiv": "å begynne",
+    "presens": "begynner",
+    "preteritum": "begynte",
+    "perfektum": "begynt",
+    "english": "Begin"
+  },
+  {
+    "infinitiv": "å behandle",
+    "presens": "behandler",
+    "preteritum": "behandlet",
+    "perfektum": "behandlet",
+    "english": "Handle"
+  },
+  {
+    "infinitiv": "å beite",
+    "presens": "beiter",
+    "preteritum": "beitet",
+    "perfektum": "beitet",
+    "english": "Graze"
+  },
+  {
+    "infinitiv": "å beskrive",
+    "presens": "beskriver",
+    "preteritum": "beskrev",
+    "perfektum": "beskrevet",
+    "english": "Describe"
+  },
+  {
+    "infinitiv": "å bestemme",
+    "presens": "bestemmer",
+    "preteritum": "bestemte",
+    "perfektum": "bestemt",
+    "english": "Decide"
+  },
+  {
+    "infinitiv": "å beslå",
+    "presens": "beslår",
+    "preteritum": "beslo",
+    "perfektum": "beslått",
+    "english": "Mount"
+  },
+  {
+    "infinitiv": "å bestille",
+    "presens": "bestiller",
+    "preteritum": "bestilte",
+    "perfektum": "bestilt",
+    "english": "Do, Order"
+  },
+  {
+    "infinitiv": "å bestå",
+    "presens": "består",
+    "preteritum": "besto(d)",
+    "perfektum": "bestått",
+    "english": "Pass (as in exam)"
+  },
+  {
+    "infinitiv": "å besøke",
+    "presens": "besøker",
+    "preteritum": "besøkte",
+    "perfektum": "besøkt",
+    "english": "Visit"
+  },
+  {
+    "infinitiv": "å betale",
+    "presens": "betaler",
+    "preteritum": "betalte",
+    "perfektum": "betalt",
+    "english": "Pay"
+  },
+  {
+    "infinitiv": "å bety",
+    "presens": "betyr",
+    "preteritum": "betydde",
+    "perfektum": "betydd",
+    "english": "Mean, Signify"
+  },
+  {
+    "infinitiv": "å binde",
+    "presens": "binder",
+    "preteritum": "bandt",
+    "perfektum": "bundet",
+    "english": "Bind"
+  },
+  {
+    "infinitiv": "å bite",
+    "presens": "biter",
+    "preteritum": "bet",
+    "perfektum": "bit",
+    "english": "Bite"
+  },
+  {
+    "infinitiv": "å bjeffe",
+    "presens": "bjeffer",
+    "preteritum": "bjeffet",
+    "perfektum": "bjeffet",
+    "english": "Bark, Yap"
+  },
+  {
+    "infinitiv": "å blande",
+    "presens": "blander",
+    "preteritum": "blandet",
+    "perfektum": "blandet",
+    "english": "Blend, Mix"
+  },
+  {
+    "infinitiv": "å bli",
+    "presens": "blir",
+    "preteritum": "ble",
+    "perfektum": "blitt",
+    "english": "Be"
+  },
+  {
+    "infinitiv": "å blø",
+    "presens": "blør",
+    "preteritum": "blødde",
+    "perfektum": "blødd",
+    "english": "Bleed"
+  },
+  {
+    "infinitiv": "å blåse",
+    "presens": "blåser",
+    "preteritum": "blåste",
+    "perfektum": "blåst",
+    "english": "Blow"
+  },
+  {
+    "infinitiv": "å bo",
+    "presens": "bor",
+    "preteritum": "bodde",
+    "perfektum": "bodd",
+    "english": "Live, Reside"
+  },
+  {
+    "infinitiv": "å brekke",
+    "presens": "brekker",
+    "preteritum": "brakk",
+    "perfektum": "brukket",
+    "english": "Break"
+  },
+  {
+    "infinitiv": "å brenne",
+    "presens": "brenner",
+    "preteritum": "",
+    "perfektum": "brent",
+    "english": "Burn"
+  },
+  {
+    "infinitiv": "å bringe",
+    "presens": "bringer",
+    "preteritum": "brakte",
+    "perfektum": "brakt",
+    "english": "Bring"
+  },
+  {
+    "infinitiv": "å briste",
+    "presens": "brister",
+    "preteritum": "brast",
+    "perfektum": "bristet",
+    "english": "Burst"
+  },
+  {
+    "infinitiv": "å bruke",
+    "presens": "bruker",
+    "preteritum": "brukte",
+    "perfektum": "brukt",
+    "english": "Use"
+  },
+  {
+    "infinitiv": "å bry",
+    "presens": "bryr",
+    "preteritum": "brydde",
+    "perfektum": "brydd",
+    "english": "Bother"
+  },
+  {
+    "infinitiv": "å bryte",
+    "presens": "bryter",
+    "preteritum": "brøt",
+    "perfektum": "brutt",
+    "english": "Violate, Break"
+  },
+  {
+    "infinitiv": "å burde",
+    "presens": "bør",
+    "preteritum": "burde",
+    "perfektum": "burdet",
+    "english": "Ought to"
+  },
+  {
+    "infinitiv": "å by",
+    "presens": "byr",
+    "preteritum": "bød",
+    "perfektum": "budt",
+    "english": "Offer, Bid"
+  },
+  {
+    "infinitiv": "å bygge",
+    "presens": "bygger",
+    "preteritum": "bygde",
+    "perfektum": "bygd",
+    "english": "Build"
+  },
+  {
+    "infinitiv": "å bytte",
+    "presens": "bytter",
+    "preteritum": "byttet",
+    "perfektum": "byttet",
+    "english": "Change, Exchange"
+  },
+  {
+    "infinitiv": "å bære",
+    "presens": "bærer",
+    "preteritum": "bar",
+    "perfektum": "båret",
+    "english": "Bear, Endure"
+  },
+  {
+    "infinitiv": "å danse",
+    "presens": "danser",
+    "preteritum": "danset",
+    "perfektum": "danset",
+    "english": "Dance"
+  },
+  {
+    "infinitiv": "å dele",
+    "presens": "deler",
+    "preteritum": "delte",
+    "perfektum": "delt",
+    "english": "Divide"
+  },
+  {
+    "infinitiv": "å demokratisere",
+    "presens": "demokratiserer",
+    "preteritum": "demokratiserte",
+    "perfektum": "demokratisert",
+    "english": "Democratize"
+  },
+  {
+    "infinitiv": "å diskutere",
+    "presens": "diskuterer",
+    "preteritum": "diskuterte",
+    "perfektum": "diskutert",
+    "english": "Discuss"
+  },
+  {
+    "infinitiv": "å dra",
+    "presens": "drar",
+    "preteritum": "drog",
+    "perfektum": "dradd/dratt",
+    "english": "Go / Drag"
+  },
+  {
+    "infinitiv": "å drikke",
+    "presens": "drikker",
+    "preteritum": "drakk",
+    "perfektum": "drukket",
+    "english": "Drink"
+  },
+  {
+    "infinitiv": "å drive",
+    "presens": "driver",
+    "preteritum": "drev",
+    "perfektum": "drevet",
+    "english": "Drive, Operate"
+  },
+  {
+    "infinitiv": "å drømme",
+    "presens": "drømmer",
+    "preteritum": "drømte",
+    "perfektum": "drømt",
+    "english": "Dream"
+  },
+  {
+    "infinitiv": "å dusje",
+    "presens": "dusjer",
+    "preteritum": "dusjet",
+    "perfektum": "dusjet",
+    "english": "Shower"
+  },
+  {
+    "infinitiv": "å dyrke",
+    "presens": "dyrker",
+    "preteritum": "",
+    "perfektum": "dyrket",
+    "english": "Cultivate"
+  },
+  {
+    "infinitiv": "å dytte",
+    "presens": "dytter",
+    "preteritum": "dyttet",
+    "perfektum": "dyttet",
+    "english": "Push"
+  },
+  {
+    "infinitiv": "å eie",
+    "presens": "eier",
+    "preteritum": "eide",
+    "perfektum": "eid",
+    "english": "Possess"
+  },
+  {
+    "infinitiv": "å ese",
+    "presens": "eser",
+    "preteritum": "este",
+    "perfektum": "est",
+    "english": "Rise"
+  },
+  {
+    "infinitiv": "å ete",
+    "presens": "eter",
+    "preteritum": "åt",
+    "perfektum": "ett",
+    "english": "Eat Greedily"
+  },
+  {
+    "infinitiv": "å evangelisere",
+    "presens": "evangeliserer",
+    "preteritum": "evangeliserte",
+    "perfektum": "evangelisert",
+    "english": "Evangelize"
+  },
+  {
+    "infinitiv": "å falle",
+    "presens": "faller",
+    "preteritum": "falt",
+    "perfektum": "falt",
+    "english": "Fall"
+  },
+  {
+    "infinitiv": "å feire",
+    "presens": "feirer",
+    "preteritum": "feiret",
+    "perfektum": "feiret",
+    "english": "Celebrate"
+  },
+  {
+    "infinitiv": "å finne",
+    "presens": "finner",
+    "preteritum": "fant",
+    "perfektum": "funnet",
+    "english": "Find"
+  },
+  {
+    "infinitiv": "å fiske",
+    "presens": "fisker",
+    "preteritum": "fisket",
+    "perfektum": "fisket",
+    "english": "Fish"
+  },
+  {
+    "infinitiv": "å fleipe",
+    "presens": "fleiper",
+    "preteritum": "fleipte",
+    "perfektum": "fleipt",
+    "english": "Joke"
+  },
+  {
+    "infinitiv": "å fly",
+    "presens": "flyr",
+    "preteritum": "fløy",
+    "perfektum": "fløyet",
+    "english": "Fly"
+  },
+  {
+    "infinitiv": "å flykte",
+    "presens": "flykter",
+    "preteritum": "flyktet",
+    "perfektum": "flyktet",
+    "english": "Flee"
+  },
+  {
+    "infinitiv": "å flyte",
+    "presens": "flyter",
+    "preteritum": "fløt",
+    "perfektum": "flytt",
+    "english": "Float"
+  },
+  {
+    "infinitiv": "flytte",
+    "presens": "flytter",
+    "preteritum": "flyttet",
+    "perfektum": "flyttet",
+    "english": "Move"
+  },
+  {
+    "infinitiv": "å forene",
+    "presens": "forener",
+    "preteritum": "forente",
+    "perfektum": "forent",
+    "english": "Unite"
+  },
+  {
+    "infinitiv": "å foreslå",
+    "presens": "foreslår",
+    "preteritum": "foreslo",
+    "perfektum": "foreslått",
+    "english": "Suggest"
+  },
+  {
+    "infinitiv": "å foreta",
+    "presens": "foretar",
+    "preteritum": "foretok",
+    "perfektum": "foretatt",
+    "english": "Undertake"
+  },
+  {
+    "infinitiv": "å forkjøle seg",
+    "presens": "forkjøler seg",
+    "preteritum": "forkjølet seg",
+    "perfektum": "forkjølt seg",
+    "english": "Catch a Cold"
+  },
+  {
+    "infinitiv": "å forklare",
+    "presens": "forklarer",
+    "preteritum": "",
+    "perfektum": "forklart",
+    "english": "Explain"
+  },
+  {
+    "infinitiv": "å forlate",
+    "presens": "forlater",
+    "preteritum": "forlot",
+    "perfektum": "forlatt",
+    "english": "Forgive"
+  },
+  {
+    "infinitiv": "å fornye",
+    "presens": "fornyer",
+    "preteritum": "fornyet",
+    "perfektum": "fornyet",
+    "english": "Renew"
+  },
+  {
+    "infinitiv": "å forstå",
+    "presens": "forstår",
+    "preteritum": "forstod",
+    "perfektum": "forstått",
+    "english": "Understand"
+  },
+  {
+    "infinitiv": "å forsvinne",
+    "presens": "forsvinner",
+    "preteritum": "forsvant",
+    "perfektum": "forsvunnet",
+    "english": "Disappear"
+  },
+  {
+    "infinitiv": "å fortelle",
+    "presens": "forteller",
+    "preteritum": "fortalte",
+    "perfektum": "fortalt",
+    "english": "Tell"
+  },
+  {
+    "infinitiv": "å fortsette",
+    "presens": "fortsetter",
+    "preteritum": "fortsatte",
+    "perfektum": "fortsatt",
+    "english": "Continue"
+  },
+  {
+    "infinitiv": "å fosse",
+    "presens": "fosser",
+    "preteritum": "fosset",
+    "perfektum": "fosset",
+    "english": "Gush"
+  },
+  {
+    "infinitiv": "å fotografere",
+    "presens": "fotograferer",
+    "preteritum": "fotograferte",
+    "perfektum": "fotografert",
+    "english": "Photograph"
+  },
+  {
+    "infinitiv": "å fryse",
+    "presens": "fryser",
+    "preteritum": "frøs",
+    "perfektum": "frosset",
+    "english": "Freeze"
+  },
+  {
+    "infinitiv": "å fylle",
+    "presens": "fyller",
+    "preteritum": "fylte",
+    "perfektum": "fylt",
+    "english": "Fill"
+  },
+  {
+    "infinitiv": "å føde",
+    "presens": "føder",
+    "preteritum": "fødte",
+    "perfektum": "født",
+    "english": "Bear, Give birth to"
+  },
+  {
+    "infinitiv": "å føle seg",
+    "presens": "føler seg",
+    "preteritum": "følte seg",
+    "perfektum": "følt seg",
+    "english": "Be, Feel"
+  },
+  {
+    "infinitiv": "å følge",
+    "presens": "følger",
+    "preteritum": "fulgte",
+    "perfektum": "fulgt",
+    "english": "Follow"
+  },
+  {
+    "infinitiv": "å føne",
+    "presens": "føner",
+    "preteritum": "fønte",
+    "perfektum": "fønt",
+    "english": "Blow Dry"
+  },
+  {
+    "infinitiv": "å få",
+    "presens": "får",
+    "preteritum": "fikk",
+    "perfektum": "fått",
+    "english": "Get"
+  },
+  {
+    "infinitiv": "å gale",
+    "presens": "galer",
+    "preteritum": "gol",
+    "perfektum": "galt",
+    "english": "Crow"
+  },
+  {
+    "infinitiv": "å gape",
+    "presens": "gaper",
+    "preteritum": "gapte",
+    "perfektum": "gapt",
+    "english": "Gape"
+  },
+  {
+    "infinitiv": "å gi",
+    "presens": "gir",
+    "preteritum": "gav",
+    "perfektum": "gitt",
+    "english": "Give"
+  },
+  {
+    "infinitiv": "å gidde",
+    "presens": "gidder",
+    "preteritum": "gadd",
+    "perfektum": "giddet",
+    "english": "Take the trouble"
+  },
+  {
+    "infinitiv": "å gifte",
+    "presens": "gifter",
+    "preteritum": "",
+    "perfektum": "giftet",
+    "english": "Marry"
+  },
+  {
+    "infinitiv": "å gjelde",
+    "presens": "gjelder",
+    "preteritum": "gjaldt",
+    "perfektum": "gjeldt",
+    "english": "To be worth"
+  },
+  {
+    "infinitiv": "å gjenta",
+    "presens": "gjentar",
+    "preteritum": "gjentok",
+    "perfektum": "gjentatt",
+    "english": "Repeat"
+  },
+  {
+    "infinitiv": "å gjette",
+    "presens": "gjetter",
+    "preteritum": "gjettet",
+    "perfektum": "gjettet",
+    "english": "Guess"
+  },
+  {
+    "infinitiv": "å gjøre",
+    "presens": "gjør",
+    "preteritum": "gjorde",
+    "perfektum": "gjort",
+    "english": "Do"
+  },
+  {
+    "infinitiv": "å glede seg",
+    "presens": "gleder seg",
+    "preteritum": "gledet seg",
+    "perfektum": "gledet seg",
+    "english": "Look forward"
+  },
+  {
+    "infinitiv": "å glemme",
+    "presens": "glemmer",
+    "preteritum": "glemte",
+    "perfektum": "glemt",
+    "english": "Forget"
+  },
+  {
+    "infinitiv": "å gli",
+    "presens": "glir",
+    "preteritum": "glei/gled",
+    "perfektum": "glidd",
+    "english": "Slide, Glide"
+  },
+  {
+    "infinitiv": "å gnage",
+    "presens": "gnager",
+    "preteritum": "gnog",
+    "perfektum": "gnaget",
+    "english": "Gnaw"
+  },
+  {
+    "infinitiv": "å gni",
+    "presens": "gnir",
+    "preteritum": "gned",
+    "perfektum": "gnidd",
+    "english": "Rub"
+  },
+  {
+    "infinitiv": "å gratulere",
+    "presens": "gratulerer",
+    "preteritum": "gratulerte",
+    "perfektum": "gratulert",
+    "english": "Congratulate"
+  },
+  {
+    "infinitiv": "å grave",
+    "presens": "graver",
+    "preteritum": "grov",
+    "perfektum": "gravd",
+    "english": "Dig"
+  },
+  {
+    "infinitiv": "å gre",
+    "presens": "grer",
+    "preteritum": "gredde",
+    "perfektum": "gredd",
+    "english": "Comb"
+  },
+  {
+    "infinitiv": "å greie",
+    "presens": "greier",
+    "preteritum": "greide",
+    "perfektum": "greid",
+    "english": "Manage, Cope with"
+  },
+  {
+    "infinitiv": "å grense",
+    "presens": "grenser",
+    "preteritum": "grenset",
+    "perfektum": "grenset",
+    "english": "Border"
+  },
+  {
+    "infinitiv": "å grille",
+    "presens": "griller",
+    "preteritum": "grillet",
+    "perfektum": "grillet",
+    "english": "Grill"
+  },
+  {
+    "infinitiv": "å grine",
+    "presens": "griner",
+    "preteritum": "grein",
+    "perfektum": "grint",
+    "english": "Fret"
+  },
+  {
+    "infinitiv": "å gripe",
+    "presens": "griper",
+    "preteritum": "grep",
+    "perfektum": "grepet",
+    "english": "Grip"
+  },
+  {
+    "infinitiv": "å grue seg",
+    "presens": "gruer seg",
+    "preteritum": "grudde seg",
+    "perfektum": "gruet",
+    "english": "Dread"
+  },
+  {
+    "infinitiv": "å gråte",
+    "presens": "gråter",
+    "preteritum": "gråt",
+    "perfektum": "grått",
+    "english": "Cry"
+  },
+  {
+    "infinitiv": "å gyse",
+    "presens": "gyser",
+    "preteritum": "gjøs",
+    "perfektum": "gyst",
+    "english": "Shudder"
+  },
+  {
+    "infinitiv": "å gyte",
+    "presens": "gyter",
+    "preteritum": "",
+    "perfektum": "gytt",
+    "english": "Spawn"
+  },
+  {
+    "infinitiv": "å gyve",
+    "presens": "gyver",
+    "preteritum": "gjøv",
+    "perfektum": "gjøvet",
+    "english": "Fly"
+  },
+  {
+    "infinitiv": "å gå",
+    "presens": "går",
+    "preteritum": "gikk",
+    "perfektum": "gått",
+    "english": "Go, Walk"
+  },
+  {
+    "infinitiv": "å ha",
+    "presens": "har",
+    "preteritum": "hadde",
+    "perfektum": "hatt",
+    "english": "Have"
+  },
+  {
+    "infinitiv": "å handle",
+    "presens": "handler",
+    "preteritum": "handlet",
+    "perfektum": "handlet",
+    "english": "Deal, Act"
+  },
+  {
+    "infinitiv": "å hende",
+    "presens": "hender",
+    "preteritum": "hendte",
+    "perfektum": "hendt",
+    "english": "Occur"
+  },
+  {
+    "infinitiv": "å henge",
+    "presens": "henger",
+    "preteritum": "hang/hengte",
+    "perfektum": "hengt",
+    "english": "Hang"
+  },
+  {
+    "infinitiv": "å hente",
+    "presens": "henter",
+    "preteritum": "hentet",
+    "perfektum": "hentet",
+    "english": "Get"
+  },
+  {
+    "infinitiv": "å hete",
+    "presens": "heter",
+    "preteritum": "het",
+    "perfektum": "hett",
+    "english": "Name"
+  },
+  {
+    "infinitiv": "å hilse",
+    "presens": "hilser",
+    "preteritum": "hilste",
+    "perfektum": "hilst",
+    "english": "Greet"
+  },
+  {
+    "infinitiv": "å hindre",
+    "presens": "hindrer",
+    "preteritum": "hindret",
+    "perfektum": "hindret",
+    "english": "Prevent"
+  },
+  {
+    "infinitiv": "å hive",
+    "presens": "hiver",
+    "preteritum": "hev",
+    "perfektum": "hevet",
+    "english": "Heave"
+  },
+  {
+    "infinitiv": "å hjelpe",
+    "presens": "hjelper",
+    "preteritum": "hjalp",
+    "perfektum": "hjulpet",
+    "english": "Help"
+  },
+  {
+    "infinitiv": "å holde",
+    "presens": "holder",
+    "preteritum": "holdt",
+    "perfektum": "holdt",
+    "english": "Hold"
+  },
+  {
+    "infinitiv": "å hogge",
+    "presens": "hogger",
+    "preteritum": "hogg",
+    "perfektum": "hogd",
+    "english": "Cut, Chop"
+  },
+  {
+    "infinitiv": "å hoppe",
+    "presens": "hopper",
+    "preteritum": "hoppet",
+    "perfektum": "hoppet",
+    "english": "Jump"
+  },
+  {
+    "infinitiv": "å hoste",
+    "presens": "hoster",
+    "preteritum": "hostet",
+    "perfektum": "hostet",
+    "english": "Cough"
+  },
+  {
+    "infinitiv": "å huske",
+    "presens": "husker",
+    "preteritum": "husket",
+    "perfektum": "husket",
+    "english": "Remember"
+  },
+  {
+    "infinitiv": "å hvile",
+    "presens": "hviler",
+    "preteritum": "hvilte",
+    "perfektum": "hvilt",
+    "english": "Rest"
+  },
+  {
+    "infinitiv": "å hygge",
+    "presens": "hygger",
+    "preteritum": "hygget",
+    "perfektum": "hygget",
+    "english": "Comfort"
+  },
+  {
+    "infinitiv": "å høre",
+    "presens": "hører",
+    "preteritum": "",
+    "perfektum": "hørt",
+    "english": "Hear"
+  },
+  {
+    "infinitiv": "å høste",
+    "presens": "høster",
+    "preteritum": "høstet",
+    "perfektum": "høstet",
+    "english": "Harvest"
+  },
+  {
+    "infinitiv": "å håpe",
+    "presens": "håper",
+    "preteritum": "håpet",
+    "perfektum": "håpet",
+    "english": "Hope"
+  },
+  {
+    "infinitiv": "å invitere",
+    "presens": "inviterer",
+    "preteritum": "inviterte",
+    "perfektum": "invitert",
+    "english": "Invite"
+  },
+  {
+    "infinitiv": "å jobbe",
+    "presens": "jobber",
+    "preteritum": "jobbet",
+    "perfektum": "jobbet",
+    "english": "Work"
+  },
+  {
+    "infinitiv": "å kalkulere",
+    "presens": "kalkulerer",
+    "preteritum": "kalkulerte",
+    "perfektum": "kalkulert",
+    "english": "Calculate"
+  },
+  {
+    "infinitiv": "å kaste",
+    "presens": "kaster",
+    "preteritum": "kastet",
+    "perfektum": "kastet",
+    "english": "Cast"
+  },
+  {
+    "infinitiv": "å kjenne",
+    "presens": "kjenner",
+    "preteritum": "kjente",
+    "perfektum": "kjent",
+    "english": "Feel"
+  },
+  {
+    "infinitiv": "å kjøpe",
+    "presens": "kjøper",
+    "preteritum": "kjøpte",
+    "perfektum": "kjøpt",
+    "english": "Buy"
+  },
+  {
+    "infinitiv": "å kjøre",
+    "presens": "kjører",
+    "preteritum": "kjørte",
+    "perfektum": "kjørt",
+    "english": "Drive"
+  },
+  {
+    "infinitiv": "å klappe",
+    "presens": "klapper",
+    "preteritum": "klappet",
+    "perfektum": "klappet",
+    "english": "Clap"
+  },
+  {
+    "infinitiv": "å klare",
+    "presens": "klarer",
+    "preteritum": "klarte",
+    "perfektum": "klart",
+    "english": "Manage"
+  },
+  {
+    "infinitiv": "å kle",
+    "presens": "kler",
+    "preteritum": "kledde",
+    "perfektum": "kledd",
+    "english": "Dress, Clothe"
+  },
+  {
+    "infinitiv": "å klinge",
+    "presens": "klinger",
+    "preteritum": "klingte",
+    "perfektum": "klingt",
+    "english": "Sound"
+  },
+  {
+    "infinitiv": "å klippe",
+    "presens": "klipper",
+    "preteritum": "klipte",
+    "perfektum": "klipt",
+    "english": "Cut, Clip"
+  },
+  {
+    "infinitiv": "å klype",
+    "presens": "klyper",
+    "preteritum": "kløp",
+    "perfektum": "kløpet",
+    "english": "Pinch"
+  },
+  {
+    "infinitiv": "å klyve",
+    "presens": "klyver",
+    "preteritum": "kløv",
+    "perfektum": "kløvet",
+    "english": "Climb"
+  },
+  {
+    "infinitiv": "å knekke",
+    "presens": "knekker",
+    "preteritum": "knakk",
+    "perfektum": "knekt",
+    "english": "Crack"
+  },
+  {
+    "infinitiv": "å knipe",
+    "presens": "kniper",
+    "preteritum": "",
+    "perfektum": "knepet",
+    "english": "Pinch"
+  },
+  {
+    "infinitiv": "å knyte",
+    "presens": "knyter",
+    "preteritum": "knytet/knøt",
+    "perfektum": "knytet/knytt",
+    "english": "Tie"
+  },
+  {
+    "infinitiv": "å koke",
+    "presens": "koker",
+    "preteritum": "kokte",
+    "perfektum": "kokt",
+    "english": "Cook"
+  },
+  {
+    "infinitiv": "å komme",
+    "presens": "kommer",
+    "preteritum": "kom",
+    "perfektum": "kommet",
+    "english": "Come"
+  },
+  {
+    "infinitiv": "å kontaktere",
+    "presens": "kontakterer",
+    "preteritum": "kontakterte",
+    "perfektum": "kontaktert",
+    "english": "Contact"
+  },
+  {
+    "infinitiv": "å kontrollere",
+    "presens": "kontrollerer",
+    "preteritum": "kontrollerte",
+    "perfektum": "kontrollert",
+    "english": "Control"
+  },
+  {
+    "infinitiv": "å kopiere",
+    "presens": "kopierer",
+    "preteritum": "kopierte",
+    "perfektum": "kopiert",
+    "english": "Copy"
+  },
+  {
+    "infinitiv": "å korrigere",
+    "presens": "korrigerer",
+    "preteritum": "korrigerte",
+    "perfektum": "korrigert",
+    "english": "Correct"
+  },
+  {
+    "infinitiv": "å kose seg",
+    "presens": "koser seg",
+    "preteritum": "koste seg",
+    "perfektum": "kost seg",
+    "english": "Enjoy yourself"
+  },
+  {
+    "infinitiv": "å koste",
+    "presens": "koster",
+    "preteritum": "kostet",
+    "perfektum": "kostet",
+    "english": "Cost"
+  },
+  {
+    "infinitiv": "å kunne",
+    "presens": "kan",
+    "preteritum": "kunne",
+    "perfektum": "kunnet",
+    "english": "Could"
+  },
+  {
+    "infinitiv": "å krype",
+    "presens": "kryper",
+    "preteritum": "krøp",
+    "perfektum": "krøpet",
+    "english": "Creep"
+  },
+  {
+    "infinitiv": "å kvele",
+    "presens": "kveler",
+    "preteritum": "kvalte",
+    "perfektum": "kvalt",
+    "english": "Choke, Strangle"
+  },
+  {
+    "infinitiv": "å la",
+    "presens": "lar",
+    "preteritum": "lot",
+    "perfektum": "latt",
+    "english": "Let, Allow"
+  },
+  {
+    "infinitiv": "å lage",
+    "presens": "lager",
+    "preteritum": "laget",
+    "perfektum": "laget",
+    "english": "Prepare"
+  },
+  {
+    "infinitiv": "å le",
+    "presens": "ler",
+    "preteritum": "lot",
+    "perfektum": "ledd",
+    "english": "Laugh"
+  },
+  {
+    "infinitiv": "å legge",
+    "presens": "legger",
+    "preteritum": "la",
+    "perfektum": "lagt",
+    "english": "Lay"
+  },
+  {
+    "infinitiv": "å leie",
+    "presens": "leier",
+    "preteritum": "leide",
+    "perfektum": "leid",
+    "english": "Hire"
+  },
+  {
+    "infinitiv": "å leke",
+    "presens": "leker",
+    "preteritum": "lekte",
+    "perfektum": "lekt",
+    "english": "Play"
+  },
+  {
+    "infinitiv": "å lese",
+    "presens": "leser",
+    "preteritum": "leste",
+    "perfektum": "lest",
+    "english": "Read"
+  },
+  {
+    "infinitiv": "å lete",
+    "presens": "leter",
+    "preteritum": "",
+    "perfektum": "lett",
+    "english": "Search"
+  },
+  {
+    "infinitiv": "å leve",
+    "presens": "lever",
+    "preteritum": "levde",
+    "perfektum": "levd",
+    "english": "Live, Be alive"
+  },
+  {
+    "infinitiv": "å levere",
+    "presens": "leverer",
+    "preteritum": "leverte",
+    "perfektum": "levert",
+    "english": "Give up"
+  },
+  {
+    "infinitiv": "å lide",
+    "presens": "lider",
+    "preteritum": "led",
+    "perfektum": "lidd",
+    "english": "Suffer"
+  },
+  {
+    "infinitiv": "å ligge",
+    "presens": "ligger",
+    "preteritum": "lå",
+    "perfektum": "ligget",
+    "english": "Lie"
+  },
+  {
+    "infinitiv": "å like",
+    "presens": "liker",
+    "preteritum": "likte",
+    "perfektum": "likt",
+    "english": "Like"
+  },
+  {
+    "infinitiv": "å love",
+    "presens": "lover",
+    "preteritum": "lovet",
+    "perfektum": "lovet",
+    "english": "Promise"
+  },
+  {
+    "infinitiv": "å lufte",
+    "presens": "lufter",
+    "preteritum": "luftet",
+    "perfektum": "luftet",
+    "english": "Air"
+  },
+  {
+    "infinitiv": "å lukte",
+    "presens": "lukter",
+    "preteritum": "luktet",
+    "perfektum": "luktet",
+    "english": "Smell"
+  },
+  {
+    "infinitiv": "å lyde",
+    "presens": "lyder",
+    "preteritum": "lød",
+    "perfektum": "lydt",
+    "english": "Sound"
+  },
+  {
+    "infinitiv": "å lyge",
+    "presens": "lyger",
+    "preteritum": "løy",
+    "perfektum": "løyet",
+    "english": "Tell a lie"
+  },
+  {
+    "infinitiv": "å lytte",
+    "presens": "lytter",
+    "preteritum": "lyttet",
+    "perfektum": "lyttet",
+    "english": "Listen"
+  },
+  {
+    "infinitiv": "å lyve",
+    "presens": "lyver",
+    "preteritum": "løy",
+    "perfektum": "løyet",
+    "english": "Tell a lie"
+  },
+  {
+    "infinitiv": "å lære",
+    "presens": "lærer",
+    "preteritum": "lærte",
+    "perfektum": "lært",
+    "english": "Teach, Learn"
+  },
+  {
+    "infinitiv": "å løfte",
+    "presens": "løfter",
+    "preteritum": "løftet",
+    "perfektum": "løftet",
+    "english": "Lift"
+  },
+  {
+    "infinitiv": "å løpe",
+    "presens": "løper",
+    "preteritum": "løp",
+    "perfektum": "løpt",
+    "english": "Run"
+  },
+  {
+    "infinitiv": "å løse",
+    "presens": "løser",
+    "preteritum": "løste",
+    "perfektum": "løst",
+    "english": "Loosen"
+  },
+  {
+    "infinitiv": "å låne",
+    "presens": "låner",
+    "preteritum": "lånte",
+    "perfektum": "lånt",
+    "english": "Loan"
+  },
+  {
+    "infinitiv": "å låse",
+    "presens": "låser",
+    "preteritum": "låste",
+    "perfektum": "låst",
+    "english": "Lock"
+  },
+  {
+    "infinitiv": "å mase",
+    "presens": "maser",
+    "preteritum": "maste",
+    "perfektum": "mast",
+    "english": "Bother"
+  },
+  {
+    "infinitiv": "å merke",
+    "presens": "merker",
+    "preteritum": "",
+    "perfektum": "merket",
+    "english": "Mark"
+  },
+  {
+    "infinitiv": "å minke",
+    "presens": "minker",
+    "preteritum": "minket",
+    "perfektum": "minket",
+    "english": "Decrease"
+  },
+  {
+    "infinitiv": "å miste",
+    "presens": "mister",
+    "preteritum": "mistet",
+    "perfektum": "mistet",
+    "english": "Lose"
+  },
+  {
+    "infinitiv": "å møte",
+    "presens": "møter",
+    "preteritum": "møtte",
+    "perfektum": "møtt",
+    "english": "Meet"
+  },
+  {
+    "infinitiv": "å måle",
+    "presens": "måler",
+    "preteritum": "målte",
+    "perfektum": "målt",
+    "english": "Measure"
+  },
+  {
+    "infinitiv": "å måtte",
+    "presens": "må",
+    "preteritum": "måtte",
+    "perfektum": "måttet",
+    "english": "Have to"
+  },
+  {
+    "infinitiv": "å neke",
+    "presens": "neker",
+    "preteritum": "nekte",
+    "perfektum": "nekt",
+    "english": ""
+  },
+  {
+    "infinitiv": "å nekte",
+    "presens": "nekter",
+    "preteritum": "nektet",
+    "perfektum": "nektet",
+    "english": "Deny"
+  },
+  {
+    "infinitiv": "å nyse",
+    "presens": "nyser",
+    "preteritum": "nøs",
+    "perfektum": "nyst",
+    "english": "Sneeze"
+  },
+  {
+    "infinitiv": "å nyte",
+    "presens": "nyter",
+    "preteritum": "nøt",
+    "perfektum": "nytt",
+    "english": ""
+  },
+  {
+    "infinitiv": "å omarbeide",
+    "presens": "omarbeider",
+    "preteritum": "omarbeidet",
+    "perfektum": "omarbeidet",
+    "english": "Revise"
+  },
+  {
+    "infinitiv": "å oppsøke",
+    "presens": "oppsøker",
+    "preteritum": "oppsøkte",
+    "perfektum": "oppsøkt",
+    "english": "Look up"
+  },
+  {
+    "infinitiv": "å overdrive",
+    "presens": "overdriver",
+    "preteritum": "overdrev",
+    "perfektum": "overdrevet",
+    "english": "Exaggerate"
+  },
+  {
+    "infinitiv": "å overnatte",
+    "presens": "overnatter",
+    "preteritum": "overnattet",
+    "perfektum": "overnattet",
+    "english": "Spend the night"
+  },
+  {
+    "infinitiv": "å overskrive",
+    "presens": "overskriver",
+    "preteritum": "overskrev",
+    "perfektum": "overskrevet",
+    "english": "Sign"
+  },
+  {
+    "infinitiv": "å overta",
+    "presens": "overtar",
+    "preteritum": "overtok",
+    "perfektum": "overtatt",
+    "english": "Take over"
+  },
+  {
+    "infinitiv": "å overtale",
+    "presens": "overtaler",
+    "preteritum": "overtalte",
+    "perfektum": "overtalt",
+    "english": "Persuade"
+  },
+  {
+    "infinitiv": "å pakke",
+    "presens": "pakker",
+    "preteritum": "pakket",
+    "perfektum": "pakket",
+    "english": "Pack"
+  },
+  {
+    "infinitiv": "å parkere",
+    "presens": "parkerer",
+    "preteritum": "",
+    "perfektum": "parkert",
+    "english": "Park"
+  },
+  {
+    "infinitiv": "å passe",
+    "presens": "passer",
+    "preteritum": "passet",
+    "perfektum": "passet",
+    "english": "Fit"
+  },
+  {
+    "infinitiv": "å peke",
+    "presens": "peker",
+    "preteritum": "pekte",
+    "perfektum": "pekt",
+    "english": "Point"
+  },
+  {
+    "infinitiv": "å pipe",
+    "presens": "piper",
+    "preteritum": "pe(i)p",
+    "perfektum": "pepet",
+    "english": "Wheeze"
+  },
+  {
+    "infinitiv": "å pleie",
+    "presens": "pleier",
+    "preteritum": "pleide",
+    "perfektum": "pleid",
+    "english": "Look after"
+  },
+  {
+    "infinitiv": "å plombere",
+    "presens": "plomberer",
+    "preteritum": "plomberte",
+    "perfektum": "plombert",
+    "english": "Stop, Seal"
+  },
+  {
+    "infinitiv": "å plystre",
+    "presens": "plystrer",
+    "preteritum": "plystret",
+    "perfektum": "plystret",
+    "english": "Whistle"
+  },
+  {
+    "infinitiv": "å preke",
+    "presens": "preker",
+    "preteritum": "prekte",
+    "perfektum": "prekt",
+    "english": "Preach"
+  },
+  {
+    "infinitiv": "å prøve",
+    "presens": "prøver",
+    "preteritum": "prøvde",
+    "perfektum": "prøvd",
+    "english": "Try, Test"
+  },
+  {
+    "infinitiv": "å pusse",
+    "presens": "pusser",
+    "preteritum": "pusset",
+    "perfektum": "pusset",
+    "english": "Clean, Polish"
+  },
+  {
+    "infinitiv": "å putte",
+    "presens": "putter",
+    "preteritum": "puttet",
+    "perfektum": "puttet",
+    "english": "Put"
+  },
+  {
+    "infinitiv": "å pynte",
+    "presens": "pynter",
+    "preteritum": "pyntet",
+    "perfektum": "pyntet",
+    "english": "Decorate, Trim"
+  },
+  {
+    "infinitiv": "å pågripe",
+    "presens": "pågriper",
+    "preteritum": "pågripet",
+    "perfektum": "pågripet",
+    "english": "Arrest"
+  },
+  {
+    "infinitiv": "å regne",
+    "presens": "regner",
+    "preteritum": "regnet",
+    "perfektum": "renget",
+    "english": "Rain"
+  },
+  {
+    "infinitiv": "å reise",
+    "presens": "reiser",
+    "preteritum": "reiste",
+    "perfektum": "reist",
+    "english": "Travel"
+  },
+  {
+    "infinitiv": "å rekke",
+    "presens": "rekker",
+    "preteritum": "rakk",
+    "perfektum": "rukket",
+    "english": "Reach"
+  },
+  {
+    "infinitiv": "å rekommandere",
+    "presens": "rekommanderer",
+    "preteritum": "rekommanderte",
+    "perfektum": "rekommandert",
+    "english": "Register"
+  },
+  {
+    "infinitiv": "å rense",
+    "presens": "renser",
+    "preteritum": "renset",
+    "perfektum": "renset",
+    "english": "Clean"
+  },
+  {
+    "infinitiv": "å reparere",
+    "presens": "reparerer",
+    "preteritum": "reparerte",
+    "perfektum": "reparert",
+    "english": "Repair"
+  },
+  {
+    "infinitiv": "å repetere",
+    "presens": "repeterer",
+    "preteritum": "repeterte",
+    "perfektum": "repetert",
+    "english": "Repeat, Revise"
+  },
+  {
+    "infinitiv": "å representere",
+    "presens": "representerer",
+    "preteritum": "",
+    "perfektum": "representert",
+    "english": "Represent"
+  },
+  {
+    "infinitiv": "å rette",
+    "presens": "retter",
+    "preteritum": "rettet",
+    "perfektum": "rettet",
+    "english": "Straighten, Align"
+  },
+  {
+    "infinitiv": "å ri",
+    "presens": "rir",
+    "preteritum": "red",
+    "perfektum": "ridd",
+    "english": "Ride"
+  },
+  {
+    "infinitiv": "å ringe",
+    "presens": "ringer",
+    "preteritum": "ringte",
+    "perfektum": "ringt",
+    "english": "Ring"
+  },
+  {
+    "infinitiv": "å rive",
+    "presens": "river",
+    "preteritum": "rev",
+    "perfektum": "revet",
+    "english": "Grate"
+  },
+  {
+    "infinitiv": "å ro",
+    "presens": "ror",
+    "preteritum": "rodde",
+    "perfektum": "rodd",
+    "english": "Row"
+  },
+  {
+    "infinitiv": "å rope",
+    "presens": "roper",
+    "preteritum": "ropte",
+    "perfektum": "ropt",
+    "english": "Call, Shout"
+  },
+  {
+    "infinitiv": "å ruske",
+    "presens": "rusker",
+    "preteritum": "rusket",
+    "perfektum": "rusket",
+    "english": "Pull"
+  },
+  {
+    "infinitiv": "å rydde",
+    "presens": "rydder",
+    "preteritum": "ryddet",
+    "perfektum": "ryddet",
+    "english": "Tidy"
+  },
+  {
+    "infinitiv": "å rydde av",
+    "presens": "rydder av",
+    "preteritum": "ryddet av",
+    "perfektum": "ryddet av",
+    "english": "Clear away, Remove"
+  },
+  {
+    "infinitiv": "å ryke",
+    "presens": "ryker",
+    "preteritum": "røk",
+    "perfektum": "røket",
+    "english": "Smoke"
+  },
+  {
+    "infinitiv": "å røre",
+    "presens": "rører",
+    "preteritum": "rørte",
+    "perfektum": "rørt",
+    "english": "Stir"
+  },
+  {
+    "infinitiv": "å røyke",
+    "presens": "røyker",
+    "preteritum": "røykte",
+    "perfektum": "røykt",
+    "english": "Smoke"
+  },
+  {
+    "infinitiv": "å råde",
+    "presens": "råder",
+    "preteritum": "rådet",
+    "perfektum": "rådet",
+    "english": "Recommend"
+  },
+  {
+    "infinitiv": "å sage",
+    "presens": "sager",
+    "preteritum": "saget",
+    "perfektum": "saget",
+    "english": "Saw"
+  },
+  {
+    "infinitiv": "å samarbeide",
+    "presens": "samarbeider",
+    "preteritum": "samarbeidet",
+    "perfektum": "samarbeidet",
+    "english": "Work together"
+  },
+  {
+    "infinitiv": "å sammenlikne",
+    "presens": "sammenlikner",
+    "preteritum": "sammenliknet",
+    "perfektum": "sammenliknet",
+    "english": "Compare"
+  },
+  {
+    "infinitiv": "å savne",
+    "presens": "savner",
+    "preteritum": "savnet",
+    "perfektum": "savnet",
+    "english": "Lack"
+  },
+  {
+    "infinitiv": "å se",
+    "presens": "ser",
+    "preteritum": "så",
+    "perfektum": "sett",
+    "english": "See, Look"
+  },
+  {
+    "infinitiv": "å selge",
+    "presens": "selger",
+    "preteritum": "solgte",
+    "perfektum": "solgt",
+    "english": "Sell"
+  },
+  {
+    "infinitiv": "å sende",
+    "presens": "sender",
+    "preteritum": "",
+    "perfektum": "sendt",
+    "english": "Send"
+  },
+  {
+    "infinitiv": "å servere",
+    "presens": "serverer",
+    "preteritum": "serverte",
+    "perfektum": "servert",
+    "english": "Serve"
+  },
+  {
+    "infinitiv": "å sette",
+    "presens": "setter",
+    "preteritum": "satte",
+    "perfektum": "satt",
+    "english": "Set"
+  },
+  {
+    "infinitiv": "å si",
+    "presens": "sier",
+    "preteritum": "sa",
+    "perfektum": "sagt",
+    "english": "Say"
+  },
+  {
+    "infinitiv": "å sige",
+    "presens": "siger",
+    "preteritum": "seg",
+    "perfektum": "seget",
+    "english": "Ooze, Seep"
+  },
+  {
+    "infinitiv": "å sikte",
+    "presens": "sikter",
+    "preteritum": "siktet",
+    "perfektum": "siktet",
+    "english": "Aim"
+  },
+  {
+    "infinitiv": "å sitte",
+    "presens": "sitter",
+    "preteritum": "satt",
+    "perfektum": "sittet",
+    "english": "Sit"
+  },
+  {
+    "infinitiv": "å skifte",
+    "presens": "skifter",
+    "preteritum": "skiftet",
+    "perfektum": "skiftet",
+    "english": "Change, Switch"
+  },
+  {
+    "infinitiv": "å skje",
+    "presens": "skjer",
+    "preteritum": "skjedde",
+    "perfektum": "skjedd",
+    "english": "Happen"
+  },
+  {
+    "infinitiv": "å skjelve",
+    "presens": "skjelver",
+    "preteritum": "skalv",
+    "perfektum": "skjelvet",
+    "english": "Tremble"
+  },
+  {
+    "infinitiv": "å skjære",
+    "presens": "skjærer",
+    "preteritum": "skar",
+    "perfektum": "skåret",
+    "english": "Cut"
+  },
+  {
+    "infinitiv": "å skjønne",
+    "presens": "skjønner",
+    "preteritum": "skjønte",
+    "perfektum": "skjønt",
+    "english": "Understand"
+  },
+  {
+    "infinitiv": "å skride",
+    "presens": "skrider",
+    "preteritum": "skred",
+    "perfektum": "skredet",
+    "english": "Proceed"
+  },
+  {
+    "infinitiv": "å skrive",
+    "presens": "skriver",
+    "preteritum": "skrev",
+    "perfektum": "skrevet",
+    "english": "Write"
+  },
+  {
+    "infinitiv": "å skru",
+    "presens": "skrur",
+    "preteritum": "skrudde",
+    "perfektum": "skrudd",
+    "english": "Screw"
+  },
+  {
+    "infinitiv": "å skryte",
+    "presens": "skryter",
+    "preteritum": "skrøt",
+    "perfektum": "skrytt",
+    "english": "Boast"
+  },
+  {
+    "infinitiv": "å skulle",
+    "presens": "skal",
+    "preteritum": "skulle",
+    "perfektum": "skullet",
+    "english": "Shall, Have to"
+  },
+  {
+    "infinitiv": "å skvette",
+    "presens": "skvetter",
+    "preteritum": "skvettet",
+    "perfektum": "skvettet",
+    "english": "Splash"
+  },
+  {
+    "infinitiv": "å skylle",
+    "presens": "skyller",
+    "preteritum": "skylte",
+    "perfektum": "skylt",
+    "english": "Wash"
+  },
+  {
+    "infinitiv": "å skynde",
+    "presens": "skynder",
+    "preteritum": "skyndte",
+    "perfektum": "skyndet",
+    "english": "Hasten"
+  },
+  {
+    "infinitiv": "å skyte",
+    "presens": "skyter",
+    "preteritum": "skjøt",
+    "perfektum": "skutt",
+    "english": "Shoot"
+  },
+  {
+    "infinitiv": "å skyve",
+    "presens": "skyver",
+    "preteritum": "",
+    "perfektum": "skjøvet",
+    "english": "Push, Shove"
+  },
+  {
+    "infinitiv": "å slenge",
+    "presens": "slenger",
+    "preteritum": "slengte",
+    "perfektum": "slengt",
+    "english": "Throw"
+  },
+  {
+    "infinitiv": "å slippe",
+    "presens": "slipper",
+    "preteritum": "slapp",
+    "perfektum": "sluppet",
+    "english": "Drop"
+  },
+  {
+    "infinitiv": "å slite",
+    "presens": "sliter",
+    "preteritum": "slet",
+    "perfektum": "slitt",
+    "english": "Toil"
+  },
+  {
+    "infinitiv": "å slutte",
+    "presens": "slutter",
+    "preteritum": "sluttet",
+    "perfektum": "sluttet",
+    "english": "End, Close"
+  },
+  {
+    "infinitiv": "å slå",
+    "presens": "slår",
+    "preteritum": "slo",
+    "perfektum": "slått",
+    "english": "Hit"
+  },
+  {
+    "infinitiv": "å slåss",
+    "presens": "slåss",
+    "preteritum": "sloss",
+    "perfektum": "slåss",
+    "english": "Fight"
+  },
+  {
+    "infinitiv": "å smake",
+    "presens": "smaker",
+    "preteritum": "smaket",
+    "perfektum": "smaket",
+    "english": "Taste"
+  },
+  {
+    "infinitiv": "å smelle",
+    "presens": "smeller",
+    "preteritum": "smelte",
+    "perfektum": "smelt",
+    "english": "Bang, Smack"
+  },
+  {
+    "infinitiv": "å smile",
+    "presens": "smiler",
+    "preteritum": "smilte",
+    "perfektum": "smilt",
+    "english": "Smile"
+  },
+  {
+    "infinitiv": "å smitte",
+    "presens": "smitter",
+    "preteritum": "smittet",
+    "perfektum": "smittet",
+    "english": "Infect"
+  },
+  {
+    "infinitiv": "å sminke",
+    "presens": "sminker",
+    "preteritum": "sminket",
+    "perfektum": "sminket",
+    "english": "Apply make up"
+  },
+  {
+    "infinitiv": "å smøre",
+    "presens": "smører",
+    "preteritum": "smurte",
+    "perfektum": "smurt",
+    "english": "Oil, Lubricate"
+  },
+  {
+    "infinitiv": "å snakke",
+    "presens": "snakker",
+    "preteritum": "snakket",
+    "perfektum": "snakket",
+    "english": "Speak, Talk"
+  },
+  {
+    "infinitiv": "å snegle",
+    "presens": "snegler",
+    "preteritum": "sneglet",
+    "perfektum": "sneglet",
+    "english": "Move slowly"
+  },
+  {
+    "infinitiv": "å snike",
+    "presens": "sniker",
+    "preteritum": "snek",
+    "perfektum": "sneket",
+    "english": "Sneak"
+  },
+  {
+    "infinitiv": "å snyte",
+    "presens": "snyter",
+    "preteritum": "snøt",
+    "perfektum": "snytt",
+    "english": "Cheat"
+  },
+  {
+    "infinitiv": "å snø",
+    "presens": "snør",
+    "preteritum": "snødde",
+    "perfektum": "snødd",
+    "english": "Snow"
+  },
+  {
+    "infinitiv": "å sove",
+    "presens": "sover",
+    "preteritum": "sov",
+    "perfektum": "sovet",
+    "english": "Sleep"
+  },
+  {
+    "infinitiv": "å sovne",
+    "presens": "sovner",
+    "preteritum": "sovnet",
+    "perfektum": "sovnet",
+    "english": "Fall asleep"
+  },
+  {
+    "infinitiv": "å spandere",
+    "presens": "spanderer",
+    "preteritum": "spanderte",
+    "perfektum": "spandert",
+    "english": "Spend"
+  },
+  {
+    "infinitiv": "å spare",
+    "presens": "sparer",
+    "preteritum": "",
+    "perfektum": "spart",
+    "english": "Save, Be economical"
+  },
+  {
+    "infinitiv": "å sparke",
+    "presens": "sparker",
+    "preteritum": "sparket",
+    "perfektum": "sparket",
+    "english": "Kick"
+  },
+  {
+    "infinitiv": "å spikre",
+    "presens": "spikrer",
+    "preteritum": "spikret",
+    "perfektum": "spikret",
+    "english": "Nail"
+  },
+  {
+    "infinitiv": "å spille",
+    "presens": "spiller",
+    "preteritum": "spilte",
+    "perfektum": "spilt",
+    "english": "Play"
+  },
+  {
+    "infinitiv": "å spinne",
+    "presens": "spinner",
+    "preteritum": "spant",
+    "perfektum": "spunnet",
+    "english": "Spin"
+  },
+  {
+    "infinitiv": "å spise",
+    "presens": "spiser",
+    "preteritum": "spiste",
+    "perfektum": "spist",
+    "english": "Eat"
+  },
+  {
+    "infinitiv": "å sprekke",
+    "presens": "sprekker",
+    "preteritum": "sprakk",
+    "perfektum": "sprukket",
+    "english": "Crack, Burst"
+  },
+  {
+    "infinitiv": "å sprette",
+    "presens": "spretter",
+    "preteritum": "spratt",
+    "perfektum": "sprettet",
+    "english": "Bounce"
+  },
+  {
+    "infinitiv": "å springe",
+    "presens": "springer",
+    "preteritum": "sprang",
+    "perfektum": "sprunget",
+    "english": "Spring, Leap"
+  },
+  {
+    "infinitiv": "å spørre",
+    "presens": "spør",
+    "preteritum": "spurte",
+    "perfektum": "spurt",
+    "english": "Ask"
+  },
+  {
+    "infinitiv": "å starte",
+    "presens": "starter",
+    "preteritum": "startet",
+    "perfektum": "startet",
+    "english": "Start"
+  },
+  {
+    "infinitiv": "å steke",
+    "presens": "steker",
+    "preteritum": "stekte",
+    "perfektum": "stekt",
+    "english": "Roast, Fry, Bake"
+  },
+  {
+    "infinitiv": "å stelle",
+    "presens": "steller",
+    "preteritum": "stelte",
+    "perfektum": "stelt",
+    "english": "Manage"
+  },
+  {
+    "infinitiv": "å stemme",
+    "presens": "stemmer",
+    "preteritum": "stemte",
+    "perfektum": "stemt",
+    "english": "Vote, Agree"
+  },
+  {
+    "infinitiv": "å stevne",
+    "presens": "stevner",
+    "preteritum": "stevnet",
+    "perfektum": "stevnet",
+    "english": "Summon"
+  },
+  {
+    "infinitiv": "å stige",
+    "presens": "stiger",
+    "preteritum": "steg",
+    "perfektum": "steget",
+    "english": "Climb"
+  },
+  {
+    "infinitiv": "å stikke",
+    "presens": "stikker",
+    "preteritum": "stakk",
+    "perfektum": "stukket",
+    "english": "Stick"
+  },
+  {
+    "infinitiv": "å stille",
+    "presens": "stiller",
+    "preteritum": "stilte",
+    "perfektum": "stilt",
+    "english": "Put, Place"
+  },
+  {
+    "infinitiv": "å stjele",
+    "presens": "stjeler",
+    "preteritum": "stjal",
+    "perfektum": "stjålet",
+    "english": "Steal"
+  },
+  {
+    "infinitiv": "å stoppe",
+    "presens": "stopper",
+    "preteritum": "stoppet",
+    "perfektum": "stoppet",
+    "english": "Stop"
+  },
+  {
+    "infinitiv": "å strekke",
+    "presens": "strekker",
+    "preteritum": "strakk",
+    "perfektum": "strukket",
+    "english": "Stretch"
+  },
+  {
+    "infinitiv": "å stri",
+    "presens": "strir",
+    "preteritum": "",
+    "perfektum": "stridd",
+    "english": "Struggle"
+  },
+  {
+    "infinitiv": "å strikke",
+    "presens": "strikker",
+    "preteritum": "strikket",
+    "perfektum": "strikket",
+    "english": "Knit"
+  },
+  {
+    "infinitiv": "å stryke",
+    "presens": "stryker",
+    "preteritum": "strøk",
+    "perfektum": "strøket",
+    "english": "Stroke"
+  },
+  {
+    "infinitiv": "å studere",
+    "presens": "studerer",
+    "preteritum": "studerte",
+    "perfektum": "studert",
+    "english": "Study"
+  },
+  {
+    "infinitiv": "å stå",
+    "presens": "står",
+    "preteritum": "stod",
+    "perfektum": "stått",
+    "english": "Stand"
+  },
+  {
+    "infinitiv": "å svare",
+    "presens": "svarer",
+    "preteritum": "svarte",
+    "perfektum": "svart",
+    "english": "Answer, Reply"
+  },
+  {
+    "infinitiv": "å sverge",
+    "presens": "sverger",
+    "preteritum": "sverget",
+    "perfektum": "sverget",
+    "english": "Swear"
+  },
+  {
+    "infinitiv": "å svi",
+    "presens": "svir",
+    "preteritum": "sved",
+    "perfektum": "svidd",
+    "english": "Burn"
+  },
+  {
+    "infinitiv": "å svike",
+    "presens": "sviker",
+    "preteritum": "svek",
+    "perfektum": "sveket",
+    "english": "Defraud, Deceive"
+  },
+  {
+    "infinitiv": "å svinge",
+    "presens": "svinger",
+    "preteritum": "svingte",
+    "perfektum": "svingt",
+    "english": "Swing, Brandish"
+  },
+  {
+    "infinitiv": "å svømme",
+    "presens": "svømmer",
+    "preteritum": "svømte",
+    "perfektum": "svømt",
+    "english": "Swim"
+  },
+  {
+    "infinitiv": "å sy",
+    "presens": "syr",
+    "preteritum": "sydde",
+    "perfektum": "sydd",
+    "english": "Sew, Make"
+  },
+  {
+    "infinitiv": "å sykle",
+    "presens": "sykler",
+    "preteritum": "syklet",
+    "perfektum": "syklet",
+    "english": "Cycle,"
+  },
+  {
+    "infinitiv": "å synes",
+    "presens": "syn(e)s",
+    "preteritum": "syntes",
+    "perfektum": "syn(e)s",
+    "english": "Think"
+  },
+  {
+    "infinitiv": "å synge",
+    "presens": "synger",
+    "preteritum": "sang",
+    "perfektum": "sunget",
+    "english": "Sing"
+  },
+  {
+    "infinitiv": "å synke",
+    "presens": "synker",
+    "preteritum": "sank",
+    "perfektum": "sunket",
+    "english": "Sink"
+  },
+  {
+    "infinitiv": "å søke",
+    "presens": "søker",
+    "preteritum": "søkte",
+    "perfektum": "søkt",
+    "english": "Apply, Seek"
+  },
+  {
+    "infinitiv": "å ta",
+    "presens": "tar",
+    "preteritum": "tok",
+    "perfektum": "tatt",
+    "english": "Take"
+  },
+  {
+    "infinitiv": "å takke",
+    "presens": "takker",
+    "preteritum": "takket",
+    "perfektum": "takket",
+    "english": "Thank"
+  },
+  {
+    "infinitiv": "å tape",
+    "presens": "taper",
+    "preteritum": "tapte",
+    "perfektum": "tapt",
+    "english": "Lose"
+  },
+  {
+    "infinitiv": "å tappe",
+    "presens": "tapper",
+    "preteritum": "",
+    "perfektum": "tappet",
+    "english": "Tap, Draw"
+  },
+  {
+    "infinitiv": "å telle",
+    "presens": "teller",
+    "preteritum": "talte",
+    "perfektum": "talt",
+    "english": "Count"
+  },
+  {
+    "infinitiv": "å tenke",
+    "presens": "tenker",
+    "preteritum": "tenkte",
+    "perfektum": "tenkt",
+    "english": "Think"
+  },
+  {
+    "infinitiv": "å tenne",
+    "presens": "tenner",
+    "preteritum": "tente",
+    "perfektum": "tent",
+    "english": "Light, Ignite"
+  },
+  {
+    "infinitiv": "å tigge",
+    "presens": "tigger",
+    "preteritum": "tagg",
+    "perfektum": "tigget",
+    "english": "Beg"
+  },
+  {
+    "infinitiv": "å tilby",
+    "presens": "tilbyr",
+    "preteritum": "tilbød",
+    "perfektum": "tilbudt",
+    "english": "Offer"
+  },
+  {
+    "infinitiv": "å tjene",
+    "presens": "tjener",
+    "preteritum": "tjente",
+    "perfektum": "tjent",
+    "english": "Earn"
+  },
+  {
+    "infinitiv": "å tore",
+    "presens": "tør",
+    "preteritum": "torde",
+    "perfektum": "tort",
+    "english": "Dare"
+  },
+  {
+    "infinitiv": "å torturere",
+    "presens": "torturerer",
+    "preteritum": "torturerte",
+    "perfektum": "torturert",
+    "english": "Torture"
+  },
+  {
+    "infinitiv": "å tre",
+    "presens": "trer",
+    "preteritum": "trådte",
+    "perfektum": "trådt",
+    "english": "Tread, Step"
+  },
+  {
+    "infinitiv": "å treffe",
+    "presens": "treffer",
+    "preteritum": "traff",
+    "perfektum": "truffet",
+    "english": "Meet"
+  },
+  {
+    "infinitiv": "å trene",
+    "presens": "trener",
+    "preteritum": "trente",
+    "perfektum": "trent",
+    "english": "Train, Work out"
+  },
+  {
+    "infinitiv": "å trenge",
+    "presens": "trenger",
+    "preteritum": "trengte",
+    "perfektum": "trengt",
+    "english": "Need"
+  },
+  {
+    "infinitiv": "å trive",
+    "presens": "triver",
+    "preteritum": "treiv",
+    "perfektum": "trevet",
+    "english": "Catch up, Grab"
+  },
+  {
+    "infinitiv": "å trives",
+    "presens": "triv(e)s",
+    "preteritum": "trivdes",
+    "perfektum": "triv(e)s",
+    "english": "Thrive, Happy"
+  },
+  {
+    "infinitiv": "å tro",
+    "presens": "tror",
+    "preteritum": "trodde",
+    "perfektum": "trodd",
+    "english": "Think"
+  },
+  {
+    "infinitiv": "å tvinge",
+    "presens": "tvinger",
+    "preteritum": "tvang",
+    "perfektum": "tvunget",
+    "english": "Force, Compel"
+  },
+  {
+    "infinitiv": "å tørke",
+    "presens": "tørker",
+    "preteritum": "tørket",
+    "perfektum": "tørket",
+    "english": "Dry"
+  },
+  {
+    "infinitiv": "underskrive",
+    "presens": "underskriver",
+    "preteritum": "underskrev",
+    "perfektum": "underskrevet",
+    "english": "Sign"
+  },
+  {
+    "infinitiv": "å undersøke",
+    "presens": "undersøker",
+    "preteritum": "undersøkte",
+    "perfektum": "undersøkt",
+    "english": "Examine"
+  },
+  {
+    "infinitiv": "å unnskylde",
+    "presens": "unnskylder",
+    "preteritum": "",
+    "perfektum": "unnskyldt",
+    "english": "Excuse"
+  },
+  {
+    "infinitiv": "å utarbeide",
+    "presens": "utarbeider",
+    "preteritum": "utarbeidet",
+    "perfektum": "utarbeidet",
+    "english": "Prepare, Work out"
+  },
+  {
+    "infinitiv": "å utføre",
+    "presens": "utfører",
+    "preteritum": "utførte",
+    "perfektum": "utført",
+    "english": "Export, Perform"
+  },
+  {
+    "infinitiv": "å utslå",
+    "presens": "utslår",
+    "preteritum": "utslo",
+    "perfektum": "utslått",
+    "english": "Hanging down, Down"
+  },
+  {
+    "infinitiv": "å varme",
+    "presens": "varmer",
+    "preteritum": "varmet",
+    "perfektum": "varmet",
+    "english": "Warm"
+  },
+  {
+    "infinitiv": "å vaske",
+    "presens": "vasker",
+    "preteritum": "vasket",
+    "perfektum": "vasket",
+    "english": "Wash"
+  },
+  {
+    "infinitiv": "å veie",
+    "presens": "veier",
+    "preteritum": "veide",
+    "perfektum": "veid",
+    "english": "Weigh"
+  },
+  {
+    "infinitiv": "å vekke",
+    "presens": "vekker",
+    "preteritum": "vekket",
+    "perfektum": "vekket",
+    "english": "Wake"
+  },
+  {
+    "infinitiv": "å velge",
+    "presens": "velger",
+    "preteritum": "valgte",
+    "perfektum": "valgt",
+    "english": "Select"
+  },
+  {
+    "infinitiv": "å vente",
+    "presens": "venter",
+    "preteritum": "ventet",
+    "perfektum": "ventet",
+    "english": "Wait"
+  },
+  {
+    "infinitiv": "å verne",
+    "presens": "verner",
+    "preteritum": "vernet",
+    "perfektum": "vernet",
+    "english": "Preserve, Defend"
+  },
+  {
+    "infinitiv": "å vike",
+    "presens": "viker",
+    "preteritum": "vekket",
+    "perfektum": "veket",
+    "english": "Yield"
+  },
+  {
+    "infinitiv": "å ville",
+    "presens": "vil",
+    "preteritum": "ville",
+    "perfektum": "villet",
+    "english": "Want to, Will"
+  },
+  {
+    "infinitiv": "å vinke",
+    "presens": "vinker",
+    "preteritum": "vinket",
+    "perfektum": "vinket",
+    "english": "Wave"
+  },
+  {
+    "infinitiv": "å vinne",
+    "presens": "vinner",
+    "preteritum": "vant",
+    "perfektum": "vunnet",
+    "english": "Win"
+  },
+  {
+    "infinitiv": "å vise",
+    "presens": "viser",
+    "preteritum": "viste",
+    "perfektum": "vist",
+    "english": "Indicate, Point out"
+  },
+  {
+    "infinitiv": "å vite",
+    "presens": "vet",
+    "preteritum": "visste",
+    "perfektum": "visst",
+    "english": "Know"
+  },
+  {
+    "infinitiv": "å vokse",
+    "presens": "vokser",
+    "preteritum": "vokste",
+    "perfektum": "vokst",
+    "english": "Grow, Increase"
+  },
+  {
+    "infinitiv": "å voldta",
+    "presens": "voldtar",
+    "preteritum": "voldtok",
+    "perfektum": "voldtatt",
+    "english": "Rape"
+  },
+  {
+    "infinitiv": "å vri",
+    "presens": "vrir",
+    "preteritum": "vred",
+    "perfektum": "vridd",
+    "english": "Twist"
+  },
+  {
+    "infinitiv": "å være",
+    "presens": "er",
+    "preteritum": "",
+    "perfektum": "vært",
+    "english": "Be, Exist"
+  },
+  {
+    "infinitiv": "å våkne",
+    "presens": "våkner",
+    "preteritum": "våknet",
+    "perfektum": "våknet",
+    "english": "Wake, Awaken"
+  },
+  {
+    "infinitiv": "å øke",
+    "presens": "øker",
+    "preteritum": "økte",
+    "perfektum": "økt",
+    "english": "Increase"
+  },
+  {
+    "infinitiv": "å ønske",
+    "presens": "ønsker",
+    "preteritum": "ønsket",
+    "perfektum": "ønsket",
+    "english": "Wish"
+  },
+  {
+    "infinitiv": "å øve",
+    "presens": "øver",
+    "preteritum": "øvde",
+    "perfektum": "øvd",
+    "english": "Practise"
+  }
+]
