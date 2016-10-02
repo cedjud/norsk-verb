@@ -1,0 +1,35 @@
+.verb {
+  border-bottom: $border;
+  flex: 1;
+  height: 50px;
+  line-height: 50px;
+
+  &__form {
+    flex: 1 1 calc(100% / 5);
+    padding: 0px 15px;
+
+    &:hover {
+      background-color: $c-primary-shade;
+    }
+  }
+
+  &__action {
+    flex: 0 0 50px;
+
+    button {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      border: none;
+      background: none;
+
+      &:hover {
+        background-color: $c-primary-shade;
+      }
+
+    }
+
+  }
+
+
+}

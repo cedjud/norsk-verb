@@ -3,69 +3,96 @@ var ReactDOM = require('react-dom');
 
 var Data = require('../../norsk-verb.json');
 
+var Verb = require('./verb.js');
+var Query = require('./query.js');
+var MyList = require('./my-list.js');
+var VerbList = require('./verb-list.js');
+
 var MainLayout = React.createClass({
   getInitialState: function(){
     return {
-      query: 'query',
+      query: 'Søk etter verb',
       data: Data,
       suggestions: [],
-      quiz: []
+      myList: [],
+      myListActive: false
     }
   },
   componentDidMount: function(){
     this.setState({
-      suggestions: this.getSuggestions('')
+      suggestions: this.state.data
     });
   },
-  getSuggestions: function(string){
-    return this.state.data.filter(function(verb){
-      return (verb.infinitiv.startsWith('å ' + string));
+  filterList: function(string, list){
+    return list.filter(function(verb){
+      return (
+        verb.infinitiv.startsWith('å ' + string)
+        || verb.perfektum.startsWith(string)
+        || verb.presens.startsWith(string)
+        || verb.preteritum.startsWith(string)
+        || verb.english.startsWith(string)
+      );
     });
   },
   handleQueryChange: function(e){
     var query = e.target.value;
     if (e.target.value.length < 1){
-      query = 'query';
+      query = 'Søk etter verb';
     }
-    this.setState({
-      query: query,
-      suggestions: this.getSuggestions(e.target.value)
-    })
+    if (this.state.myListActive) {
+
+      this.setState({
+        query: query,
+        myList: this.filterList(e.target.value, this.state.myList)
+      });
+    } else {
+      this.setState({
+        query: query,
+        suggestions: this.filterList(e.target.value, this.state.data)
+      });
+    }
   },
-  handleAddToQuiz: function(e){
+  handleClick: function(index, action){
+    switch (action) {
+      case 'add':
+        this.setState({
+          myList: this.state.myList.concat(this.state.suggestions[index])
+        })
+        break;
+      case 'remove':
+        this.state.myList.splice(index, 1)
+        this.setState({
+          myList: this.state.myList
+        })
+        break;
+      default:
+        console.log('no action');
+    }
+
+  },
+  setView: function(){
     this.setState({
-      quiz: this.state.quiz.concat(e.target.value)
-    })
+      myListActive: !this.state.myListActive
+    });
   },
   render: function(){
-    var verbs = this.state.suggestions.map((verb, index) => {
-        return (
-          <ul key={index}>
-            <li>{verb.infinitiv}</li>
-            <li>{verb.presens}</li>
-            <li>{verb.preteritum}</li>
-            <li>{verb.perfektum}</li>
-            <li>{verb.english}</li>
-            <li>
-              <button onClick={this.handleAddToQuiz}>Add to quiz</button>
-            </li>
-          </ul>
-        );
-    });
-      return (
-        <div data={this.state.data}>
-          <h3>{this.state.query}</h3>
-          <input
-            type="text"
-            placeholder={this.state.query}
-            onChange={this.handleQueryChange}
-             />
-             <div>
-               {verbs}
-             </div>
+    return (
+      <div className="container">
+        <Query placeholder={this.state.query} handleQueryChange={this.handleQueryChange}/>
+        <div className={ this.state.myListActive ? "content mylist-active" : "content" }>
+          <VerbList
+            query={this.state.query}
+            suggestions={this.state.suggestions}
+            handleQueryChange={this.handleQueryChange}
+            handleClick={this.handleClick}
+          />
+          <MyList
+            verbs={this.state.myList} setView={this.setView} handleClick={this.handleClick}
+          />
         </div>
-      );
-    }
+      </div>
+    );
+  }
 });
 
 module.exports = MainLayout;

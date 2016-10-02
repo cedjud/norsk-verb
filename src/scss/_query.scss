@@ -1,0 +1,15 @@
+.query {
+  flex: 0 0 100px;
+  display: flex;
+  padding: 0px 25px;
+
+  input {
+    flex: 1 1 100%;
+    margin: 25px 0px;
+    padding: 5px 10px;
+    font-size: 22px;
+    border: none;
+    background-color: $c-primary-shade;
+    outline: none;
+  }
+}

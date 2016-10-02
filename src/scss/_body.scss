@@ -1,3 +1,14 @@
 body {
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
 }

@@ -1,0 +1,5 @@
+{
+  "bootstrapVersion": 3,
+  "loglevel": "debug",
+  "scripts": false
+}
