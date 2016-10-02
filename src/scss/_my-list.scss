@@ -1,22 +1,20 @@
 .my-list {
-  width: calc((100% / 12) * 6);
-  padding: 0px 25px;
 
   &.is-active {
+    width: calc((100% / 12) * 6);
+      padding: 0px 25px;
 
     .my-list__container {
-
       &-splash-text {
         width: 100%;
       }
-  }
+    }
   }
 
   &:not(.is-active){
-    // background-color: blue;
-    .verb__form {
-      flex: 0 0 80px;
+    width: calc((100% / 12) * 1);
 
+    .verb__form {
       &:not(:first-child){
         display: none;
       }
@@ -33,8 +31,7 @@
       background: $c-primary;
       font-size: 16px;
       line-height: 40px;
-      width: 20px;
-      padding: 0px 10px;
+      width: 40px;
       border-radius: 20px;
       margin: 10px 0px;
       cursor: pointer;
@@ -52,7 +49,6 @@
     overflow-y: scroll;
 
     &-splash-text {
-      width: calc(100% / 6);
       margin: 10px;
       color: $c-font-light;
       font-weight: 200;

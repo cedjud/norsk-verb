@@ -41,7 +41,6 @@ var MainLayout = React.createClass({
       query = 'Søk etter verb';
     }
     if (this.state.myListActive) {
-
       this.setState({
         query: query,
         myList: this.filterList(e.target.value, this.state.myList)
@@ -56,9 +55,19 @@ var MainLayout = React.createClass({
   handleClick: function(index, action){
     switch (action) {
       case 'add':
-        this.setState({
-          myList: this.state.myList.concat(this.state.suggestions[index])
-        })
+        var test = false;
+        for (var i in this.state.myList){
+          if (this.state.myList[i].infinitiv == this.state.suggestions[index].infinitiv){
+            test = true;
+          };
+        }
+        if (!test){
+          this.setState({
+            myList: this.state.myList.concat(this.state.suggestions[index])
+          });
+        } else {
+          console.log('Verb already in list!');
+        }
         break;
       case 'remove':
         this.state.myList.splice(index, 1)
@@ -69,7 +78,6 @@ var MainLayout = React.createClass({
       default:
         console.log('no action');
     }
-
   },
   setView: function(){
     this.setState({
