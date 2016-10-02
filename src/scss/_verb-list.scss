@@ -1,27 +1,18 @@
 .verb-list {
-    width: calc(((100% /12) * 6));
-    padding: 0px 10px;
-    // display: flex;
-    // flex-flow: column nowrap;
+  width: calc(((100% /12) * 6));
+  padding: 0px 25px;
 
-    h3 {
-      padding-left: 25px;
+  &__heading {
+    border-bottom: $border;
+
+    &-title {
+      padding-left: 10px;
+      margin-left: 0px;
     }
+  }
 
-
-    .verb-list__container {
-      overflow-y: scroll;
-      flex-flow: column nowrap;
-    }
-
-    &__btn-add-my-list {
-      flex: 0 0 100px;
-      border: $border;
-      border-top-width: 0px;
-      background: none;
-
-      &:hover {
-        background-color: $c-primary-shade;
-      }
-    }
+  &__container {
+    height: 100%;
+    overflow-y: scroll;
+  }
 }

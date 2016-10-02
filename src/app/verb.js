@@ -10,8 +10,10 @@ var Verb = React.createClass({
         <li className="verb__form">{this.props.preteritum}</li>
         <li className="verb__form">{this.props.perfektum}</li>
         <li className="verb__form">{this.props.english}</li>
-        <li className="verb__action">
-          <button onClick={this.props.handleVerbAction}><i className={this.props.actionIcon}></i></button>
+        <li className="verb__actions">
+          <button className="verb__action" onClick={this.props.handleVerbAction}>
+            <i className={this.props.actionIcon + " verb__action-toggle"}></i>
+          </button>
         </li>
       </ul>
     );

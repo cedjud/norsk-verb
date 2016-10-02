@@ -7,7 +7,9 @@ var VerbList = React.createClass({
   render: function(){
     return (
       <div className="verb-list">
-        <h3>{this.props.query}</h3>
+        <div className="verb-list__heading">
+          <h3 className="verb-list__heading-title">Søk: {this.props.query}</h3>
+        </div>
         <div className="verb-list__container">
         { this.props.suggestions.map( (verb, index) => {
           return (

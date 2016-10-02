@@ -1,5 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var classNames = require('classnames');
 
 var Data = require('../../norsk-verb.json');
 
@@ -76,10 +77,14 @@ var MainLayout = React.createClass({
     });
   },
   render: function(){
+    var contentClasseNames = classNames({
+      "content": true,
+      "mylist-active": this.state.myListActive
+    })
     return (
       <div className="container">
         <Query placeholder={this.state.query} handleQueryChange={this.handleQueryChange}/>
-        <div className={ this.state.myListActive ? "content mylist-active" : "content" }>
+        <div className={contentClasseNames}>
           <VerbList
             query={this.state.query}
             suggestions={this.state.suggestions}
@@ -87,7 +92,10 @@ var MainLayout = React.createClass({
             handleClick={this.handleClick}
           />
           <MyList
-            verbs={this.state.myList} setView={this.setView} handleClick={this.handleClick}
+            verbs={this.state.myList}
+            setView={this.setView}
+            handleClick={this.handleClick}
+            isActive={this.state.myListActive}
           />
         </div>
       </div>

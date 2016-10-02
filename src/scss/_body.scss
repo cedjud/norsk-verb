@@ -1,7 +1,31 @@
 body {
     font-family: sans-serif;
+    font-size: 16px;
+    color: $c-font;
     margin: 0px;
     padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 20px;
+}
+
+h1, h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: $c-font-dark;
+  line-height: 1.25;
+}
+
+h3, h4, h5, h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: $c-font-dark;
+  line-height: 1.25;
+}
+
+p {
+  line-height: 1.5;
 }
 
 ul {
@@ -11,4 +35,10 @@ ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+}
+
+button {
+  padding: 0px;
+  border: none;
+  background: none;
 }

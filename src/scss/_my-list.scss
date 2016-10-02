@@ -1,10 +1,62 @@
 .my-list {
   width: calc((100% / 12) * 6);
-  height: 100%;
-  overflow-y: scroll;
-  padding: 0px 10px;
+  padding: 0px 25px;
 
-  h3 {
-    padding-left: 25px;
+  &.is-active {
+
+    .my-list__container {
+
+      &-splash-text {
+        width: 100%;
+      }
+  }
+  }
+
+  &:not(.is-active){
+    // background-color: blue;
+    .verb__form {
+      flex: 0 0 80px;
+
+      &:not(:first-child){
+        display: none;
+      }
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    border-bottom: $border;
+
+    &-toggle {
+      background: $c-primary;
+      font-size: 16px;
+      line-height: 40px;
+      width: 20px;
+      padding: 0px 10px;
+      border-radius: 20px;
+      margin: 10px 0px;
+      cursor: pointer;
+      transition: all .1s;
+
+      &:hover {
+        background-color: $c-primary-shade;
+        color: $c-font-dark;
+      }
+    }
+  }
+
+  &__container {
+    height: 100%;
+    overflow-y: scroll;
+
+    &-splash-text {
+      width: calc(100% / 6);
+      margin: 10px;
+      color: $c-font-light;
+      font-weight: 200;
+      font-style: italic;
+    }
   }
 }

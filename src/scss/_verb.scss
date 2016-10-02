@@ -1,35 +1,47 @@
 .verb {
   border-bottom: $border;
   flex: 1;
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
+  transition: all .1s;
 
-  &__form {
-    flex: 1 1 calc(100% / 5);
-    padding: 0px 15px;
+  &:hover {
+    background-color: $c-primary;
+    color: $c-font-dark;
 
-    &:hover {
+    .verb__action-toggle {
       background-color: $c-primary-shade;
     }
   }
 
-  &__action {
-    flex: 0 0 50px;
-
-    button {
-      height: 100%;
-      width: 100%;
-      text-align: center;
-      border: none;
-      background: none;
-
-      &:hover {
-        background-color: $c-primary-shade;
-      }
-
-    }
-
+  &__form {
+    flex: 1 1 calc(100% / 5);
+    padding: 0px 15px;
   }
 
+  &__actions {
+    flex: 0 0 50px;
 
+    .verb__action {
+      height: 100%;
+      width: 100%;
+
+      &-toggle {
+        background: $c-primary;
+        color: $c-font;
+        font-size: 16px;
+        line-height: 40px;
+        width: 20px;
+        padding: 0px 10px;
+        border-radius: 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all .1s;
+
+        &:hover {
+          color: $c-font-dark
+        }
+      }
+    }
+  }
 }
