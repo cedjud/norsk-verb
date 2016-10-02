@@ -12,8 +12,16 @@
     width: calc((100% / 6) * 10);
     transition: transform .2s;
 
+    @include small-screen {
+      width: 200%;
+    };
+
     &.mylist-active {
       transform: translateX(-50%);
+
+      @include medium-screen {
+        transform: translateX(-41.66666%);
+      }
     }
 
     @import 'verb-list';

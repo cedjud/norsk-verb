@@ -1,9 +1,19 @@
 .verb {
   border-bottom: $border;
-  flex: 1;
-  height: 60px;
   line-height: 60px;
   transition: all .1s;
+
+  @include small-screen {
+    flex-direction: column;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    transition: all .2s;
+
+    &.is-expanded {
+      height: calc(60px * 5);
+    }
+  }
 
   &:hover {
     background-color: $c-primary;
@@ -16,17 +26,36 @@
 
   &__form {
     flex: 1 1 calc(100% / 5);
-    padding: 0px 15px;
+    padding: 0px 10px;
+    white-space: nowrap;
+
+    @include small-screen {
+      flex: 0 0 60px;
+      overflow: hidden;
+    };
   }
 
   &__actions {
+    display: flex;
     flex: 0 0 50px;
 
-    .verb__action {
-      height: 100%;
+    @include small-screen {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+    .verb__action-expand {
+      display: none;
+      @include small-screen {
+        display: inline-block;
+      }
+    }
+    
+    button[class^="verb__action"] {
       width: 100%;
 
-      &-toggle {
+      .verb__action-toggle {
         background: $c-primary;
         color: $c-font;
         font-size: 16px;
@@ -38,6 +67,7 @@
         transition: all .1s;
 
         &:hover {
+          background-color: $c-primary-shade;
           color: $c-font-dark
         }
       }

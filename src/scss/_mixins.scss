@@ -1,0 +1,20 @@
+// Setup breakpoint Mixins
+
+$small : 767px;
+$large: 1024px;
+
+@mixin small-screen {
+  @media (max-width: #{$small}){
+    @content;
+  }
+}
+@mixin medium-screen {
+  @media (min-width: #{$small + 1px}) and (max-width: #{$large}){
+    @content;
+  }
+}
+@mixin large-screen {
+  @media (min-width: #{$large + 1px}){
+    @content;
+  }
+}

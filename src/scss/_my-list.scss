@@ -14,6 +14,23 @@
   &:not(.is-active){
     width: calc((100% / 12) * 1);
 
+    @include small-screen {
+      width: 50%;
+    }
+
+    @include medium-screen {
+      width: calc((100% / 12) * 2);
+    }
+
+    .my-list__heading {
+      @include small-screen {
+        &-toggle {
+          position: relative;
+          left: -75px;
+        }
+      }
+    }
+
     .verb__form {
       &:not(:first-child){
         display: none;

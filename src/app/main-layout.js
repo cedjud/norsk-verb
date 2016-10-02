@@ -2,9 +2,10 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var classNames = require('classnames');
 
+// Import Data
 var Data = require('../../norsk-verb.json');
 
-var Verb = require('./verb.js');
+// Import Components
 var Query = require('./query.js');
 var MyList = require('./my-list.js');
 var VerbList = require('./verb-list.js');

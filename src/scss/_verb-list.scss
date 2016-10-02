@@ -2,6 +2,14 @@
   width: calc(((100% /12) * 6));
   padding: 0px 25px;
 
+  @include small-screen {
+    width: 50%;
+  }
+
+  @include medium-screen {
+    width: calc(((100% / 12) * 5));
+  }
+
   &__heading {
     border-bottom: $border;
 
