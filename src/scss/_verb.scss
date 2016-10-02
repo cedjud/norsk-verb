@@ -15,12 +15,15 @@
     }
   }
 
-  &:hover {
-    background-color: $c-primary;
-    color: $c-font-dark;
 
-    .verb__action-toggle {
-      background-color: $c-primary-shade;
+  &:hover {
+    @include large-screen {
+      background-color: $c-primary;
+      color: $c-font-dark;
+
+      .verb__action-toggle {
+        background-color: $c-primary-shade;
+      }
     }
   }
 
@@ -51,7 +54,7 @@
         display: inline-block;
       }
     }
-    
+
     button[class^="verb__action"] {
       width: 100%;
 
@@ -67,8 +70,10 @@
         transition: all .1s;
 
         &:hover {
-          background-color: $c-primary-shade;
-          color: $c-font-dark
+          @include large-screen {
+            background-color: $c-primary-shade;
+            color: $c-font-dark
+          }
         }
       }
     }
