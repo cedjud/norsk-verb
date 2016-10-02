@@ -7,6 +7,6 @@ var MainLayout = require('./main-layout.js');
 
 module.exports = (
   <Router history={browserHistory}>
-    <Route path="/" component={MainLayout} />
+    <Route path="/norsk-verb" component={MainLayout} />
   </Router>
 );

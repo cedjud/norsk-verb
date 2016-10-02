@@ -21872,7 +21872,7 @@
 	module.exports = React.createElement(
 	  Router,
 	  { history: browserHistory },
-	  React.createElement(Route, { path: '/', component: MainLayout })
+	  React.createElement(Route, { path: '/norsk-verb', component: MainLayout })
 	);
 
 /***/ },
