@@ -44,12 +44,12 @@ var MainLayout = React.createClass({
     if (this.state.myListActive) {
       this.setState({
         query: query,
-        myList: this.filterList(e.target.value, this.state.myList)
+        myList: this.filterList(e.target.value.toLowerCase(), this.state.myList)
       });
     } else {
       this.setState({
         query: query,
-        suggestions: this.filterList(e.target.value, this.state.data)
+        suggestions: this.filterList(e.target.value.toLowerCase(), this.state.data)
       });
     }
   },

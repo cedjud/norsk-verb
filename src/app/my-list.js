@@ -18,7 +18,8 @@ var MyList = React.createClass({
     var splashText = (
       <p className="my-list__container-splash-text">
         This is your list. Click on the + button in individual
-        verbs to add them to this list.
+        verbs to add them to this list.<br />
+        This is in development, you can add to your list, but not save it.
       </p>
     );
     return (
