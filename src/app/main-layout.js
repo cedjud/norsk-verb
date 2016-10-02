@@ -28,11 +28,11 @@ var MainLayout = React.createClass({
   filterList: function(string, list){
     return list.filter(function(verb){
       return (
-        verb.infinitiv.startsWith('å ' + string)
-        || verb.perfektum.startsWith(string)
-        || verb.presens.startsWith(string)
-        || verb.preteritum.startsWith(string)
-        || verb.english.startsWith(string)
+        verb.infinitiv.includes('å ' + string)
+        || verb.perfektum.includes(string)
+        || verb.presens.includes(string)
+        || verb.preteritum.includes(string)
+        || verb.english.includes(string)
       );
     });
   },
