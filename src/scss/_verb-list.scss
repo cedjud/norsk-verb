@@ -17,6 +17,22 @@
       padding-left: 10px;
       margin-left: 0px;
     }
+
+    &-forms {
+      display: flex;
+      padding-right: 60px;
+      color: $c-font-light;
+      text-transform: uppercase;
+
+      @include small-screen {
+        display: none;
+      }
+
+      li {
+        padding: 20px 10px;
+        flex: 1;
+      }
+    }
   }
 
   &__container {

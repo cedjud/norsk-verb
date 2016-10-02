@@ -17,6 +17,7 @@ var MainLayout = React.createClass({
       data: Data,
       suggestions: [],
       myList: [],
+      myListBuffer: [],
       myListActive: false
     }
   },
@@ -39,12 +40,16 @@ var MainLayout = React.createClass({
   handleQueryChange: function(e){
     var query = e.target.value;
     if (e.target.value.length < 1){
-      query = 'Søk etter verb';
+      if (this.state.myListActive){
+        query = "Søk i MyList";
+      } else {
+        query = 'Søk etter verb';
+      }
     }
     if (this.state.myListActive) {
       this.setState({
         query: query,
-        myList: this.filterList(e.target.value.toLowerCase(), this.state.myList)
+        myList: this.filterList(e.target.value.toLowerCase(), this.state.myListBuffer)
       });
     } else {
       this.setState({
@@ -82,7 +87,9 @@ var MainLayout = React.createClass({
   },
   setView: function(){
     this.setState({
-      myListActive: !this.state.myListActive
+      myListActive: !this.state.myListActive,
+      query: (this.state.myListActive ? "Søk verb" : "Søk i MyList" ),
+      myListBuffer: this.state.myList
     });
   },
   render: function(){

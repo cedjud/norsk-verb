@@ -32,6 +32,10 @@
     padding: 0px 10px;
     white-space: nowrap;
 
+    &:nth-child(4):before{
+      content: 'har ';
+    }
+
     @include small-screen {
       flex: 0 0 60px;
       overflow: hidden;
