@@ -5,13 +5,19 @@ var classNames = require('classnames');
 var Verb = React.createClass({
   getInitialState: function(){
     return {
-      isExpanded: false
+      isExpanded: false,
+      isActiveQuiz: false
     }
   },
   toggleExpandVerb: function(){
     this.setState({
       isExpanded: !this.state.isExpanded
     })
+  },
+  toggleQuiz: function(){
+    this.setState({
+        isActiveQuiz: !this.state.isActiveQuiz
+      });
   },
   render: function(){
     var verbClassNames = classNames({
@@ -23,14 +29,23 @@ var Verb = React.createClass({
       "fa-caret-down": !this.state.isExpanded,
       "fa-caret-up": this.state.isExpanded
     });
+    var quizButtonClassNames = classNames({
+      "fa verb__action-toggle": true,
+      "fa-question": !this.state.isActiveQuiz,
+      "fa-close": this.state.isActiveQuiz,
+    });
+    var quizButton = <button className="verb__action-quiz" onClick={this.toggleQuiz}>
+                      <i className={quizButtonClassNames}></i>
+                    </button>;
     return (
       <ul className={verbClassNames}>
-        <li className="verb__form">{this.props.infinitiv}</li>
-        <li className="verb__form">{this.props.presens}</li>
-        <li className="verb__form">{this.props.preteritum}</li>
-        <li className="verb__form">{this.props.perfektum}</li>
-        <li className="verb__form">{this.props.english}</li>
+        <VerbForm string={this.props.infinitiv} />
+        <VerbForm quiz={this.state.isActiveQuiz} string={this.props.presens} />
+        <VerbForm quiz={this.state.isActiveQuiz} string={this.props.preteritum} />
+        <VerbForm quiz={this.state.isActiveQuiz} string={this.props.perfektum} />
+        <VerbForm quiz={this.state.isActiveQuiz} string={this.props.english} />
         <li className="verb__actions">
+          {quizButton}
           <button className="verb__action-expand" onClick={this.toggleExpandVerb}>
             <i className={verbActionExpandToggleClassNames}></i>
           </button>
@@ -39,6 +54,51 @@ var Verb = React.createClass({
           </button>
         </li>
       </ul>
+    );
+  }
+});
+
+var VerbForm = React.createClass({
+  getInitialState: function(){
+    return {
+      isCorrect: false
+    };
+  },
+  handleChange: function(e){
+      if (e.target.value === this.props.string){
+        console.log('correct!');
+        this.setState({
+          isCorrect: true
+        })
+      } else if (this.state.isCorrect === true && e.target.value !== this.props.string) {
+        console.log("shouldn't have changed it!");
+        this.setState({
+          isCorrect: false
+        })
+      }
+  },
+  render: function(){
+    var inputClassNames = classNames({
+        "isCorrect": this.state.isCorrect,
+        "isIncorrect": !this.state.isCorrect,
+    });
+    var verbFormClassNames = classNames({
+        "verb__form": true,
+        "isCorrect": this.state.isCorrect,
+        "isIncorrect": !this.state.isCorrect,
+    });
+    var content;
+    var quizString = "";
+    if (this.props.quiz) {
+      content = <input type="text" className={inputClassNames} placeholder={quizString} onChange={this.handleChange}></input>;
+    } else {
+      content = this.props.string;
+    };
+    return (
+        <li className={verbFormClassNames}>
+          {content}
+        </li>
+
     );
   }
 });

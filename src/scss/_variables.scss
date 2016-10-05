@@ -1,10 +1,13 @@
 $c-primary: #F0F0F0;
 $c-dark: lighten(#0F0F0F, 30%);
 $c-primary-shade : darken($c-primary, 10%);
-$c-primary-light : lighten($c-primary, 10%);
+$c-primary-light : lighten($c-primary, 5%);
 
 $c-font: $c-dark;
 $c-font-dark: darken($c-font, 20%);
 $c-font-light: lighten($c-font, 20%);
 
 $border : 1px solid $c-primary;
+$border-dark : 1px solid $c-primary-shade;
+
+$c-confirm: #a6e592;

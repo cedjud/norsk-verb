@@ -18,7 +18,7 @@
 
   &:hover {
     @include large-screen {
-      background-color: $c-primary;
+      background-color: $c-primary-light;
       color: $c-font-dark;
 
       .verb__action-toggle {
@@ -31,9 +31,62 @@
     flex: 1 1 calc(100% / 5);
     padding: 0px 10px;
     white-space: nowrap;
+    position: relative;
+    background-color: transparent;
+    transition: all .1s;
 
-    &:nth-child(4):before{
-      content: 'har ';
+    &.isCorrect {
+      background-color: $c-confirm;
+      color: $c-primary-light;
+
+      &:after {
+        // content: '✔︎';
+        content: '\f058';
+        font-family: 'FontAwesome';
+        font-size: 20px;
+        color: darken($c-confirm, 30%);
+        position: absolute;
+        right: 30px;
+      }
+    }
+
+    input {
+      width: 100%;
+      font-size: 16px;
+      color: $c-font-light;
+      padding: 0px;
+      line-height: 1.5;
+      border: $border;
+      border-width: 0px;
+      border-bottom: 1px solid $c-primary-shade;
+      position: relative;
+      background-color: transparent;
+      outline: none;
+      transition: all .1s;
+
+      &.isCorrect {
+        color: $c-primary-light;
+        color: darken($c-confirm, 30%);
+        border-bottom-color: darken($c-confirm, 30%);
+      }
+    }
+
+    &:nth-child(4) {
+      padding-left: 30px;
+
+      &.isCorrect {
+        &:before {
+                  border-bottom: $border-dark;
+        }
+      }
+      &:before {
+        content: 'har ';
+        position: absolute;
+        left: 0px;
+        width: 40px;
+        height: 43px;
+        // border-bottom: $border-dark;
+      }
     }
 
     @include small-screen {
