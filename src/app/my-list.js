@@ -32,7 +32,7 @@ var MyList = React.createClass({
         {(this.props.verbs.length < 1) ? splashText : null }
         { this.props.verbs.map( ( verb, index) => {
           return (
-            <Verb key={index} {...verb} actionIcon={'fa fa-minus'} handleVerbAction={this.props.handleClick.bind(null, index, 'remove')}/>
+            <Verb key={index} {...verb} isQuizable={true} actionIcon={'fa fa-minus'} handleVerbAction={this.props.handleClick.bind(null, index, 'remove')}/>
           );
         })}
         </div>

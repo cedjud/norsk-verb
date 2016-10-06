@@ -20,7 +20,7 @@ var VerbList = React.createClass({
         <div className="verb-list__container">
         { this.props.suggestions.map( (verb, index) => {
           return (
-            <Verb {...verb} key={index} index={index} actionIcon={'fa fa-plus'} handleVerbAction={this.props.handleClick.bind(null, index, 'add')} />
+            <Verb {...verb} key={index} index={index} isQuizable={false} actionIcon={'fa fa-plus'} handleVerbAction={this.props.handleClick.bind(null, index, 'add')} />
           );
         })}
         </div>

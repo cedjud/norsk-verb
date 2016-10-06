@@ -76,7 +76,8 @@
 
       &.isCorrect {
         &:before {
-                  border-bottom: $border-dark;
+          color: darken($c-confirm, 30%);
+          border-bottom: $border-confirm;
         }
       }
       &:before {
@@ -85,7 +86,6 @@
         left: 0px;
         width: 40px;
         height: 43px;
-        // border-bottom: $border-dark;
       }
     }
 

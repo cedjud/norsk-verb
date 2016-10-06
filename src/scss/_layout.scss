@@ -18,6 +18,7 @@
 
     &.mylist-active {
       transform: translateX(-50%);
+      width: calc((100% / 6) * 12);
 
       @include medium-screen {
         transform: translateX(-41.66666%);

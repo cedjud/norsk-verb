@@ -39,13 +39,13 @@ var Verb = React.createClass({
                     </button>;
     return (
       <ul className={verbClassNames}>
-        <VerbForm string={this.props.infinitiv} />
+        <VerbForm quiz={this.state.isActiveQuiz} string={this.props.infinitiv} />
         <VerbForm quiz={this.state.isActiveQuiz} string={this.props.presens} />
         <VerbForm quiz={this.state.isActiveQuiz} string={this.props.preteritum} />
         <VerbForm quiz={this.state.isActiveQuiz} string={this.props.perfektum} />
-        <VerbForm quiz={this.state.isActiveQuiz} string={this.props.english} />
+        <VerbForm string={this.props.english} />
         <li className="verb__actions">
-          {quizButton}
+          {this.props.isQuizable ? quizButton : null}
           <button className="verb__action-expand" onClick={this.toggleExpandVerb}>
             <i className={verbActionExpandToggleClassNames}></i>
           </button>
