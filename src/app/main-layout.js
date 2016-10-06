@@ -23,18 +23,34 @@ var MainLayout = React.createClass({
   },
   componentDidMount: function(){
     this.setState({
-      suggestions: this.state.data
+      suggestions: this.filterList('a', this.state.data, 'startsWith')
     });
   },
-  filterList: function(string, list){
+  filterList: function(string, list, filter){
     return list.filter(function(verb){
-      return (
-        verb.infinitiv.includes('å ' + string)
-        || verb.perfektum.includes(string)
-        || verb.presens.includes(string)
-        || verb.preteritum.includes(string)
-        || verb.english.includes(string)
-      );
+      if (filter === 'includes'){
+        return (
+          verb.infinitiv.includes('å ' + string)
+          || verb.perfektum.includes(string)
+          || verb.presens.includes(string)
+          || verb.preteritum.includes(string)
+          || verb.english.includes(string)
+        );
+      } else if (filter === 'startsWith') {
+        return (
+          verb.infinitiv.startsWith('å ' + string)
+          || verb.perfektum.startsWith(string)
+          || verb.presens.startsWith(string)
+          || verb.preteritum.startsWith(string)
+        );
+      }
+    });
+  },
+  handleSelectChange: function(e){
+    var query = e.target.value;
+    this.setState({
+      query: query,
+      suggestions: this.filterList(e.target.value.toLowerCase(), this.state.data, 'startsWith')
     });
   },
   handleQueryChange: function(e){
@@ -49,12 +65,12 @@ var MainLayout = React.createClass({
     if (this.state.myListActive) {
       this.setState({
         query: query,
-        myList: this.filterList(e.target.value.toLowerCase(), this.state.myListBuffer)
+        myList: this.filterList(e.target.value.toLowerCase(), this.state.myListBuffer, 'includes')
       });
     } else {
       this.setState({
         query: query,
-        suggestions: this.filterList(e.target.value.toLowerCase(), this.state.data)
+        suggestions: this.filterList(e.target.value.toLowerCase(), this.state.data, 'includes')
       });
     }
   },
@@ -105,6 +121,7 @@ var MainLayout = React.createClass({
             query={this.state.query}
             suggestions={this.state.suggestions}
             handleQueryChange={this.handleQueryChange}
+            handleSelectChange={this.handleSelectChange}
             handleClick={this.handleClick}
           />
           <MyList

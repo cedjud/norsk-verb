@@ -12,13 +12,25 @@
 
   &__heading {
     border-bottom: $border;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 
     &-title {
       padding-left: 10px;
       margin-left: 0px;
     }
 
+    &-select {
+      margin: 20px 15px;
+
+      @include small-screen {
+        margin-right: 65px;
+      }
+    }
+
     &-forms {
+      flex: 1 0 100%;
       display: flex;
       padding-right: 60px;
       color: $c-font-light;
@@ -36,7 +48,11 @@
   }
 
   &__container {
-    height: 100%;
+    height: calc(100% - 221px);
     overflow-y: scroll;
+
+    @include small-screen {
+      height: calc(100% - 163px);
+    }
   }
 }
